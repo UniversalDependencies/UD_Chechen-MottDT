@@ -19,13 +19,6 @@ udver: '2'
 
 ## Morphology
 
-The morphological layer of the treebank includes Universal Part-of-Speech (UPOS) tags, lemmas, and a rich set of both universal and language-specific features.
-Lemmas
-Agreeing verbs and auxiliaries are lemmatized using their default `Dclass` citation form (e.g., the verb _j-axa_ "I go" is lemmatized as _d.axa_).
-Pronouns are lemmatized to their base absolutive forms
-Nouns are lemmatized to their singular forms in the nominative
-
-
 ### Tags
 
 * Chechen-MottDT uses 16 tags, with the exception of [SYM]().
@@ -34,28 +27,25 @@ Nouns are lemmatized to their singular forms in the nominative
 Both items are inflected for grammatical agreement, tense, and have finite, participle, and free relative forms. 
 In addition, the tag [AUX]() is applied to the lexical root _wa_ 'stay' when used as an auxiliary in complex temporal-aspectual constructions to contribute imperfective reading.
 * The tag [DET]() is applied to pronominal items used attributively. One exception is possessive pronouns, which are all tagged as [PRON](). 
-Predicative uses of pronominal items are tagged as [PRON]().
----
-**Instruction**: Specify any unused tags. Explain what words are tagged as PART. 
-Describe how the AUX-VERB and DET-PRON distinctions are drawn, and 
-specify whether there are (de)verbal forms tagged as ADJ, ADV or NOUN. 
-
----
+* Predicative uses of pronominal items are tagged as [PRON]().
 
 ### Features
 
 #### Nominal features
 
-* Nouns inflect for [Case]() and [Number](). 
+* Nouns, adjectives, determiners, and numerals up to 'five' inflect for [Case]() and [Number]().
+ 
+    * Nouns and personal pronouns have extensive case paradigms: `Nom`, `Gen`, `Dat`, `Erg`, `Ins`, `Loc` (nouns only), `All`, `Abl`, `Ins`, `Lat`, and `Cmp`.
+	* Adjectives and determiners make a `Nom` nominative / `Acc` accusative (oblique) distinction.
 * There are two language-specific nominal features: [Log]{} and [NounClass]().
+* Personal pronouns have a feature [Log](), applied for uses of third person reflexive forms in direct speech to refer to the reported speaker.
 
 #### Verbal Features
 
----
-**Instruction**: Describe inherent and inflectional features for major word classes (at least NOUN and VERB). 
-Describe other noteworthy features. Include links to language-specific feature definitions if any.
-
----
+* Verbs inflect for [Tense](), [Aspect](), [Mood](), and [NounClass]() agreement.
+* Verbs are annotated for [VerbForm](): `Conv`, `Inf`, `Part`, `Noun`.
+* Auxiliaries inflect for [Tense]() and [NounClass]() agreement.
+* There are four [NounClass]() types: `J-class`, `V-class`, `D-class`, and `B-class`.
 
 ## Syntax
 
@@ -94,13 +84,6 @@ so      ju       =q   hwa     jow
 
 ## Treebanks
 
-There is [one](../treebanks/LCODE-comparison.html) Chechen UD treebank:
+There is [one](../treebanks/ce-comparison.html) Chechen UD treebank:
 
-  * [Chechen-MottDT](../treebanks/UD_Chechen-MottDT/index.html)
-
----
-**Instruction**: Treebank-specific pages are generated automatically from the README file in the treebank repository and
-from the data in the latest release. Link to the respective `*-index.html` page in the `treebanks` folder, using the language code
-and the treebank code in the file name.
-
----
+  * [Chechen-MottDT](../treebanks/ce_mottdt/index.html)
