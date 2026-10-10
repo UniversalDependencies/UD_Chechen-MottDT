@@ -130,7 +130,7 @@
 6	nochleg	nochleg	NOUN	_	Case=Abs	7	obj	_	MSeg=nochleg|Gloss=housing
 7	lexxa	liexa	VERB	_	Aspect=Perf	0	root	_	MSeg=lexxa|Gloss=search.PRF
 8	cuo	cuo	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	MSeg=cuo|Gloss=3SG.ERG
-9	shiena	shaa	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	MSeg=shiena|Gloss=3SG.REFL.DAT
+9	shiena	shaa	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	MSeg=shiena|Gloss=3SG.REFL.DAT|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = chechen_bear_021
@@ -171,7 +171,7 @@
 5	vella	d.ala	VERB	_	Aspect=Perf|NounClass=Vclass	0	root	_	MSeg=v-ella|Gloss=V-get.PRF
 6	e	iza	PRON	_	Case=Abs|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	MSeg=e|Gloss=3SG.ABS
 7	na	na	ADP	_	AdpType=Prep	8	case	_	MSeg=na|Gloss=on
-8	noch	noch	NOUN	_	Case=Abs	5	obl	_	MSeg=noch|Gloss=night
+8	noch	noch	NOUN	_	Case=Abs	5	obl	_	MSeg=noch|Gloss=night|SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=no
 
 # sent_id = chechen_bear_026_030
@@ -194,7 +194,7 @@
 14	jina	i	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	16	advcl	_	MSeg=j-i-na|Gloss=J-make-CVBant|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	volavella	d.olad.ala	VERB	_	Aspect=Perf|NounClass=Vclass	0	root	_	MSeg=v-ola-v-ella|Gloss=V-start-V-walking.PRF
-17	e	iza	PRON	_	Case=Abs|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	MSeg=e|Gloss=3SG.ABS
+17	e	iza	PRON	_	Case=Abs|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	MSeg=e|Gloss=3SG.ABS|SpaceAfter=No
 18	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=no
 
 # sent_id = chechen_bear_031_032
@@ -213,7 +213,7 @@
 10	zhilje	zhilje	NOUN	_	Case=Abs	11	obj	_	MSeg=zhilje|Gloss=housing.ABS
 11	cakarosh	karad.a	VERB	_	ConvType=Sim|Polarity=Neg|VerbForm=Conv	0	root	_	MSeg=ca-karo-sh|Gloss=NEG-find-CVBsim
 12	xilla	xila	AUX	_	Aspect=Perf	11	aux	_	MSeg=xilla|Gloss=be.PRF
-13	cun	iza	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	MSeg=cunna|Gloss=3SG.DAT
+13	cun	iza	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	MSeg=cunna|Gloss=3SG.DAT|SpaceAfter=No
 14	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=no
 
 # sent_id = chechen_bear_033
@@ -246,7 +246,7 @@
 14	so	so	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	MSeg=so|Gloss=1SG.ABS|SpaceAfter=No
 15	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=no
 16	"	"	PUNCT	_	_	13	punct	_	SpacesAfter=\n
-17	aell	aala	VERB	_	VerbForm=Conv	0	root	_	MSeg=aella|Gloss=say.CVB
+17	aell	aala	VERB	_	VerbForm=Conv	0	root	_	MSeg=aella|Gloss=say.CVB|SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=no
 
 # sent_id = chechen_bear_039
@@ -340,7 +340,7 @@
 11	,	,	PUNCT	_	_	8	punct	_	SpaceAfter=no
 12	"	"	PUNCT	_	_	8	punct	_	_
 13	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
-14	boox	boox	PART	_	_	8	mark	_	MSeg=boox|Gloss=QUOT
+14	boox	boox	PART	_	_	8	mark	_	MSeg=boox|Gloss=QUOT|SpaceAfter=No
 15	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=no
 
 # sent_id = chechen_bear_054
