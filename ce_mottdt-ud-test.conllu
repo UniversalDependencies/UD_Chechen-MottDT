@@ -184,10 +184,10 @@
 5	dwashwas	dwashwas	ADV	_	_	6	advmod	_	MSeg=dwashwas|Gloss=around
 6	hwoezhush	hwaazha	VERB	_	ConvType=Sim|VerbForm=Conv	16	advcl	_	MSeg=hwoezhu-sh|Gloss=look-CVBsim|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8-10	wie'awiina	_	_	_	_	_	_	_	_
+8-10	wie'awiina	_	_	_	_	_	_	_	SpaceAfter=No
 8	wie	wien	VERB	_	VerbForm=Inf	10	compound:redup	_	MSeg=wie|Gloss=stay.INF
 9	'a	'a	CCONJ	_	_	10	cc	_	MSeg='a|Gloss=CL
-10	wiina	wien	VERB	_	ConvType=Ant|VerbForm=Conv	16	advcl	_	MSeg=wii-na|Gloss=stay-CVBant|SpaceAfter=No
+10	wiina	wien	VERB	_	ConvType=Ant|VerbForm=Conv	16	advcl	_	MSeg=wii-na|Gloss=stay-CVBant
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	cigsh	ciga	ADV	_	_	14	advmod	_	MSeg=cigsh|Gloss=there
 13	bilgluo	bilgaluo	NOUN	_	Case=Abs	14	obj	_	MSeg=bilgluo|Gloss=mark
@@ -203,12 +203,12 @@
 1	wynchoghol	wa	VERB	_	VerbForm=Conv	11	advcl	_	MSeg=wynchoghol|Gloss=stay.CVB
 2	dwa	dwa	ADV	_	_	1	advmod	_	MSeg=dwa|Gloss=away|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	chwannie	chwannie	ADV	_	_	11	advmod	_	MSeg=chwannie|Gloss=nowhere
-5	mettiahw	mettig	ADV	_	Case=Loc	9	ccomp	_	MSeg=mettiahw|Gloss=place.LOC
+4	chwannie	chwannie	DET	_	_	11	advmod	_	MSeg=chwannie|Gloss=nowhere
+5	mettiahw	mettig	NOUN	_	Case=Loc	9	ccomp	_	MSeg=mettiahw|Gloss=place.LOC
 6	hara	hara	PRON	_	PronType=Dem	5	nsubj	_	MSeg=hara|Gloss=DEM
 7-8	jarq	_	_	_	_	_	_	_	_
 7	jar	du	AUX	_	NounClass=Jclass|Tense=Past	5	cop	_	MSeg=j-ar|Gloss=J-be.PST
-8	q	q	PART	_	_	7	advmod:emph	_	MSeg=q|Gloss=CL
+8	q	q	PART	_	_	9	advmod:emph	_	MSeg=q|Gloss=CL
 9	aella	aala	VERB	_	Aspect=Perf	10	acl	_	MSeg=aella|Gloss=say.PRF
 10	zhilje	zhilje	NOUN	_	Case=Abs	11	obj	_	MSeg=zhilje|Gloss=housing.ABS
 11	cakarosh	karad.a	VERB	_	ConvType=Sim|Polarity=Neg|VerbForm=Conv	0	root	_	MSeg=ca-karo-sh|Gloss=NEG-find-CVBsim
@@ -234,7 +234,7 @@
 2	voedsh	exa	VERB	_	ConvType=Sim|NounClass=Vclass|VerbForm=Conv	1	parataxis	_	MSeg=v-oed-ush|Gloss=V-go-CVBsim
 3	voedsh	exa	VERB	_	ConvType=Sim|NounClass=Vclass|VerbForm=Conv	2	parataxis	_	MSeg=v-oed-ush|Gloss=V-go-CVBsim|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	"	"	PUNCT	_	_	13	punct	_	SpacesAfter=no
+5	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 6	Ditt	ditt	NOUN	_	Case=Abs	9	reparandum	_	MSeg=ditt|Gloss=tree|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	doqqachu	d.oqqa	ADJ	_	_	9	amod	_	MSeg=doqqachu|Gloss=big
@@ -244,8 +244,8 @@
 12	saca	saca	VERB	_	VerbForm=Inf	13	xcomp	_	MSeg=saca|Gloss=stop.INF
 13	vieza	d.ieza	VERB	_	Tense=Pres	17	ccomp:reported	_	MSeg=v-ieza|Gloss=must.PRS
 14	so	so	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	MSeg=so|Gloss=1SG.ABS|SpaceAfter=No
-15	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=no
-16	"	"	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+15	,	,	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	13	punct	_	_
 17	aell	aala	VERB	_	VerbForm=Conv	0	root	_	MSeg=aella|Gloss=say.CVB|SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
@@ -334,9 +334,9 @@
 5	bollach	du	VERB	_	NounClass=Bclass|VerbForm=Vnoun	3	obl	_	MSeg=b-ollach|Gloss=B-be.PTCP.NMZ|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
-8	Cabieza	d.ieza	VERB	_	Case=Abs|NounClass=Bclass|Polarity=Neg|Tense=Pres	13	ccomp:reported	_	MSeg=ca-b-ieza|Gloss=NEG-B-need.PRS|SpaceAfter=No
+8	Cabieza	d.ieza	VERB	_	NounClass=Bclass|Polarity=Neg|Tense=Pres	13	ccomp:reported	_	MSeg=ca-b-ieza|Gloss=NEG-B-need.PRS|SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	cabieza	d.ieza	NOUN	_	Case=Abs|NounClass=Bclass|Polarity=Neg|Tense=Pres	8	parataxis	_	MSeg=ca-b-ieza|Gloss=NEG-B-need.PRS|SpaceAfter=No
+10	cabieza	d.ieza	VERB	_	NounClass=Bclass|Polarity=Neg|Tense=Pres	8	parataxis	_	MSeg=ca-b-ieza|Gloss=NEG-B-need.PRS|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	8	punct	_	_
 13	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
@@ -362,7 +362,7 @@
 # text_en = 'I don't need you, coat,' he said.
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Cabieza	d.ieza	VERB	_	Case=Abs|NounClass=Bclass|Polarity=Neg|Tense=Pres	7	ccomp:reported	_	MSeg=ca-b-ieza|Gloss=NEG-B-need.PRS
-3	hwo	hwo	PRON	_	Case=Abs|Number=Sing|Person=2	2	obj	_	MSeg=hwo|Gloss=2SG.ABS
+3	hwo	hwo	PRON	_	Case=Abs|Number=Sing|Person=2|PronType=Prs	2	obj	_	MSeg=hwo|Gloss=2SG.ABS
 4	ketar	ketar	NOUN	_	Case=Abs	2	vocative	_	MSeg=ketar|Gloss=coat|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	2	punct	_	_
@@ -391,14 +391,14 @@
 # text_en = The wolf ran away. The guardians were following it (the wolf).
 1	i	i	DET	_	PronType=Dem	2	det	_	MSeg=i|Gloss=DEM
 2	borz	borz	NOUN	_	Case=Abs	5	nsubj	_	MSeg=borz|Gloss=wolf
-3-5	jada'ajadda	_	_	_	_	_	_	_	_
+3-5	jada'ajadda	_	_	_	_	_	_	_	SpaceAfter=No
 3	jada	d.ada	VERB	_	NounClass=Jclass	5	compound:redup	_	MSeg=j-ada|Gloss=J-REDPL
 4	'a	'a	CCONJ	_	_	5	cc	_	MSeg='a|Gloss=CL
-5	jadda	d.ada	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	7	advcl	_	MSeg=j-adda|Gloss=J-run.CVBant|SpaceAfter=No
+5	jadda	d.ada	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	7	advcl	_	MSeg=j-adda|Gloss=J-run.CVBant
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	t'ahwdaella	d.aala	VERB	_	ConvType=Ant|NounClass=Dclass|VerbForm=Conv	0	root	_	MSeg=t'aehw-d-aella|Gloss=after-D-get.CVBant
 8	oarca	oarca	NOUN	_	Case=Abs	7	nsubj	_	MSeg=oarca|Gloss=guardians
-9	xilla	xila	AUX	_	Aspect=Perf	7	aux	_	MSeg=xilla|Gloss=be.PRF
+9	xilla	xila	AUX	_	Aspect=Perf	7	aux	_	MSeg=xilla|Gloss=be.PRF|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_005
@@ -551,10 +551,10 @@
 1	t'aaq	t'aaqqa	ADV	_	_	6	advmod	_	MSeg=t'aaq|Gloss=then
 2	juxa	juxa	ADV	_	_	6	advmod	_	MSeg=juxa|Gloss=then
 3	gaali	gaali	NOUN	_	Case=Abs	6	obl	_	MSeg=gaali|Gloss=sack
-4-6	chu'ajollina	_	_	_	_	_	_	_	_
+4-6	chu'ajollina	_	_	_	_	_	_	_	SpaceAfter=No
 4	chu	chu	VERB	_	_	3	case	_	MSeg=chu|Gloss=inside
 5	'a	'a	CCONJ	_	_	6	cc	_	MSeg='a|Gloss=CL
-6	jollina	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	15	advcl	_	MSeg=j-olli-na|Gloss=J-put-CVBant|SpaceAfter=No
+6	jollina	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	15	advcl	_	MSeg=j-olli-na|Gloss=J-put-CVBant
 7	,	,	PUNCT	_	_	6	punct	_	_
 8-11	gi'ajollina	_	_	_	_	_	_	_	_
 8	gi	gi	VERB	_	_	10	advmod	_	MSeg=gi|Gloss=back
@@ -567,7 +567,7 @@
 15	voedash	d.axa	VERB	_	ConvType=Sim|NounClass=Vclass|VerbForm=Conv	0	root	_	MSeg=v-oeda-sh|Gloss=V-go-CVBsim
 16	xilla	xila	AUX	_	Aspect=Perf	15	aux	_	MSeg=xilla|Gloss=be.PRF
 17	voqqa	d.oqqa	ADJ	_	NounClass=Vclass	18	amod	_	MSeg=v-oqqa|Gloss=V-old
-18	sag	sag	NOUN	_	Case=Abs	15	nsubj	_	MSeg=sag|Gloss=person
+18	sag	sag	NOUN	_	Case=Abs	15	nsubj	_	MSeg=sag|Gloss=person|SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_033_034
@@ -579,7 +579,7 @@
 4	voedash	d.axa	VERB	_	ConvType=Sim|NounClass=Vclass|VerbForm=Conv	0	root	_	MSeg=v-oeda-sh|Gloss=V-go-CVBsim
 5	xilla	xila	AUX	_	Aspect=Perf	4	aux	_	MSeg=xilla|Gloss=be.PRF
 6	voqqa	d.oqqa	ADJ	_	NounClass=Vclass	7	amod	_	MSeg=v-oqqa|Gloss=V-old
-7	stag	stag	NOUN	_	Case=Abs	4	nsubj	_	MSeg=stag|Gloss=person
+7	stag	stag	NOUN	_	Case=Abs	4	nsubj	_	MSeg=stag|Gloss=person|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_036
@@ -601,7 +601,7 @@
 7	hwuuna	hwuuna	PRON	_	Number=Sing|Person=2|PronType=Prs	6	obl	_	MSeg=hwuuna|Gloss=2SG.DAT
 8	?	?	PUNCT	_	_	6	punct	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	6	punct	_	_
-10	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF
+10	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_039_040
@@ -642,7 +642,7 @@
 6	t'aaq	t'aaqqa	ADV	_	_	9	advmod	_	MSeg=t'aaq|Gloss=then
 7	jux	jux	ADV	_	_	9	advmod	_	MSeg=jux|Gloss=then
 8	orcu	oarca	NOUN	_	Case=Abs	9	nsubj	_	MSeg=oarca|Gloss=guardians
-9	t'exdaella	t'ex	VERB	_	Aspect=Perf|NounClass=Dclass	0	root	_	MSeg=t'ex-d-aella|Gloss=by-D-get.PRF
+9	t'exdaella	t'ex	VERB	_	Aspect=Perf|NounClass=Dclass	0	root	_	MSeg=t'ex-d-aella|Gloss=by-D-get.PRF|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_046_047_049
@@ -682,7 +682,7 @@
 9	wojossa	d.ossa	VERB	_	Mood=Imp|NounClass=Jclass	12	ccomp:reported	_	MSeg=wo-j-ossa|Gloss=down-J-get.IMP|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	9	punct	_	_
-12	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
+12	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_055_057
@@ -700,7 +700,7 @@
 10	jaac	du	AUX	_	NounClass=Jclass|Polarity=Neg|Tense=Pres	9	aux	_	MSeg=j-aac|Gloss=J-be.PRS.NEG|SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	9	punct	_	_
-13	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
+13	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_058_063
@@ -726,7 +726,7 @@
 17	cwan	cwa	NUM	_	Case=Dat	19	det	_	MSeg=cwa-na|Gloss=one-DAT
 18	gourie	gour	NOUN	_	Case=Gen	19	nmod	_	MSeg=gour-i|Gloss=horse-GEN
 19	wun	wu	NOUN	_	Case=Dat	20	obl	_	MSeg=wu-na|Gloss=holster-DAT
-20	t'eqaechcha	t'eqaacha	VERB	_	Aspect=Perf	0	root	_	MSeg=t'e-qaechcha|Gloss=on-arrive.PRF
+20	t'eqaechcha	t'eqaacha	VERB	_	Aspect=Perf	0	root	_	MSeg=t'e-qaechcha|Gloss=on-arrive.PRF|SpaceAfter=No
 21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_064_065
@@ -763,13 +763,13 @@
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	cu	cu	PRON	_	PronType=Dem	19	det	_	MSeg=cu|Gloss=DEM
 19	gaali	gaali	NOUN	_	Case=Abs	22	obl	_	MSeg=gaali|Gloss=sack
-20-22	chu'ajollii	_	_	_	_	_	_	_	_
+20-22	chu'ajollii	_	_	_	_	_	_	_	SpaceAfter=No
 20	chu	chu	ADP	_	AdpType=Post	19	case	_	MSeg=chu|Gloss=inside|SpaceAfter=No
 21	'a	'a	CCONJ	_	_	22	cc	_	MSeg='a|Gloss=CL
-22	jollii	d.illa	VERB	_	ConvType=Imm|NounClass=Jclass|VerbForm=Conv	16	advcl	_	MSeg=j-oll-ii|Gloss=J-put-CVBimm|SpaceAfter=No
+22	jollii	d.illa	VERB	_	ConvType=Imm|NounClass=Jclass|VerbForm=Conv	16	advcl	_	MSeg=j-oll-ii|Gloss=J-put-CVBimm
 23	,	,	PUNCT	_	_	16	punct	_	SpaceAfter=No
 24	"	"	PUNCT	_	_	16	punct	_	_
-25	aella	aala	VERB	_	Aspect=Perf|VerbForm=Conv	0	root	_	MSeg=aella|Gloss=say.PRF
+25	aella	aala	VERB	_	Aspect=Perf|VerbForm=Conv	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 26	.	.	PUNCT	_	_	25	punct	_	_
 
 # sent_id = chechen_wolf_072_073
@@ -835,7 +835,7 @@
 13	lielosh	lied'ala	VERB	_	ConvType=Sim|VerbForm=Conv	0	root	_	MSeg=lielo-sh|Gloss=treat-CVBsim
 14	jara	du	AUX	_	NounClass=Jclass|Tense=Past	13	aux	_	MSeg=j-ara|Gloss=J-be.PST
 15	shie	shie	PRON	_	Case=Gen|Log=Yes|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	MSeg=shie|Gloss=3SG.REFL.GEN
-16	daas	daa	NOUN	_	Case=Erg	13	nsubj	_	MSeg=daa-s|Gloss=owner-ERG
+16	daas	daa	NOUN	_	Case=Erg	13	nsubj	_	MSeg=daa-s|Gloss=owner-ERG|SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_088_090
@@ -849,7 +849,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	lielosh	lied'ala	VERB	_	ConvType=Sim|VerbForm=Conv	0	root	_	MSeg=lielo-sh|Gloss=treat-CVBsim
 8	ju	du	AUX	_	NounClass=Jclass|Tense=Pres	7	aux	_	MSeg=j-u|Gloss=J-be.PRS
-9	shie	shie	PRON	_	Log=Yes|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	MSeg=shie|Gloss=3SG.REFL
+9	shie	shie	PRON	_	Log=Yes|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	MSeg=shie|Gloss=3SG.REFL|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_091
@@ -885,15 +885,15 @@
 5-6	juxa'a	_	_	_	_	_	_	_	_
 5	juxa	juxa	ADV	_	_	9	advmod	_	MSeg=juxa|Gloss=then
 6	'a	'a	CCONJ	_	_	9	cc	_	MSeg='a|Gloss=CL
-7-9	gi'ajollana	_	_	_	_	_	_	_	_
+7-9	gi'ajollana	_	_	_	_	_	_	_	SpaceAfter=No
 7	gi	gi	ADV	_	_	9	obl	_	MSeg=gi|Gloss=back
 8	'a	'a	CCONJ	_	_	9	cc	_	MSeg='a|Gloss=CL
-9	'ajollana	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	11	advcl	_	MSeg=j-olla-na|Gloss=J-put-CVBant|SpaceAfter=No
+9	'ajollana	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	11	advcl	_	MSeg=j-olla-na|Gloss=J-put-CVBant
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	voodash	d.ada	VERB	_	ConvType=Sim|NounClass=Vclass|VerbForm=Conv	0	root	_	MSeg=v-ooda-sh|Gloss=V-go-CVBsim
 12	xilla	xila	AUX	_	Aspect=Perf	11	aux	_	MSeg=xilla|Gloss=be.PRF
 13	voqqa	d.oqqa	ADJ	_	NounClass=Vclass	14	amod	_	MSeg=v-oqqa|Gloss=V-old
-14	stag	stag	NOUN	_	Case=Abs	11	nsubj	_	MSeg=stag|Gloss=person
+14	stag	stag	NOUN	_	Case=Abs	11	nsubj	_	MSeg=stag|Gloss=person|SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_096_100
@@ -914,7 +914,7 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	lielash	liela	VERB	_	ConvType=Sim|VerbForm=Conv	0	root	_	MSeg=liela-sh|Gloss=walk-CVBsim
 15	xilla	xila	AUX	_	Aspect=Perf	14	aux	_	MSeg=xilla|Gloss=be.PRF
-16	zhwali	zhwaela	NOUN	_	Case=Abs	14	nsubj	_	MSeg=zhwali|Gloss=dog
+16	zhwali	zhwaela	NOUN	_	Case=Abs	14	nsubj	_	MSeg=zhwali|Gloss=dog|SpaceAfter=No
 17	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_101_102
@@ -925,14 +925,14 @@
 3	…	…	PUNCT	_	_	2	punct	_	MSeg=[inaudible]|Gloss=[inaudible]
 4	shie	shie	PRON	_	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	5	nmod	_	MSeg=shie|Gloss=3SG.REFL.POSS
 5	borz	borz	NOUN	_	Case=Abs	8	obj	_	MSeg=borz|Gloss=wolf
-6-8	wo'hottaina	_	_	_	_	_	_	_	_
+6-8	wo'hottaina	_	_	_	_	_	_	_	SpaceAfter=No
 6	wo	wo	ADV	_	_	8	advmod	_	MSeg=wo|Gloss=down
 7	'a	'a	CCONJ	_	_	8	cc	_	MSeg='a|Gloss=CL
-8	hottaina	hottad.a	VERB	_	ConvType=Ant|VerbForm=Conv	12	advcl	_	MSeg=hotta-ina|Gloss=put-CVBant|SpaceAfter=No
+8	hottaina	hottad.a	VERB	_	ConvType=Ant|VerbForm=Conv	12	advcl	_	MSeg=hotta-ina|Gloss=put-CVBant
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	zhwaliega	zhwaela	NOUN	_	Case=All	12	iobj	_	MSeg=zhwali-ega|Gloss=dog-ALL
 11	xaattar	xaattar	NOUN	_	Case=Abs	12	obj	_	MSeg=xaattar|Gloss=question
-12	dina	d.a	VERB	_	Aspect=Perf|NounClass=Dclass	0	root	_	MSeg=d-i-na|Gloss=D-make-PRF
+12	dina	d.a	VERB	_	Aspect=Perf|NounClass=Dclass	0	root	_	MSeg=d-i-na|Gloss=D-make-PRF|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_103_104
@@ -990,7 +990,7 @@
 6	dara	du	AUX	_	NounClass=Dclass|Tense=Past	5	cop	_	MSeg=d-ara|Gloss=D-be.PST|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	5	punct	_	_
-9	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
+9	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = chechen_wolf_112
@@ -1034,10 +1034,10 @@
 2	q'andella	d.aala	VERB	_	ConvType=Ant|NounClass=Dclass|VerbForm=Conv	12	advcl	_	MSeg=q'an-d-ella|Gloss=old-D-get.CVBant
 3	cholt'aehwa	cholt'aehwa	SCONJ	_	_	2	mark	_	MSeg=cholt'aehwa|Gloss=after|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5-7	dwa'aeqqaina	_	_	_	_	_	_	_	_
+5-7	dwa'aeqqaina	_	_	_	_	_	_	_	SpaceAfter=No
 5	dwa	dwa	VERB	_	_	7	advmod	_	MSeg=dwa|Gloss=away
 6	'a	'a	CCONJ	_	_	7	cc	_	MSeg='a|Gloss=CL
-7	eqqaina	ieqquo	VERB	_	ConvType=Ant|VerbForm=Conv	12	advcl	_	MSeg=eqqai-na|Gloss=drive-CVBant|SpaceAfter=No
+7	eqqaina	ieqquo	VERB	_	ConvType=Ant|VerbForm=Conv	12	advcl	_	MSeg=eqqai-na|Gloss=drive-CVBant
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	so	so	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	10	obj	_	MSeg=so|Gloss=1SG.ABS
 10	caeshsh	d.asha	VERB	_	ConvType=Sim|Polarity=Neg|VerbForm=Conv	12	advcl	_	MSeg=ca-esha-sh|Gloss=NEG-need-CVBsim|SpaceAfter=No
@@ -1095,7 +1095,7 @@
 15	leattash	laatta	AUX	_	ConvType=Sim|VerbForm=Conv	14	aux	_	MSeg=leatta-sh|Gloss=stand-CVBsim|SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	chwogalna	cwoogal	NOUN	_	Case=Dat	18	obl	_	MSeg=chwogal-na|Gloss=fox-DAT
-18	t'eqachcha	t'e	VERB	_	Aspect=Perf	0	root	_	MSeg=t'e-qachcha|Gloss=on-reach.PRF
+18	t'eqachcha	t'e	VERB	_	Aspect=Perf	0	root	_	MSeg=t'e-qachcha|Gloss=on-reach.PRF|SpaceAfter=No
 19	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = chechen_wolf_133_134
@@ -1134,7 +1134,7 @@
 5	wohottaina	hottad.a	VERB	_	ConvType=Ant|VerbForm=Conv	8	advcl	_	MSeg=wo-hottai-na|Gloss=down-put-CVBant|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	xaattar	xaattar	NOUN	_	Case=Abs	8	obj	_	MSeg=xaattar|Gloss=question
-8	dina	d.a	VERB	_	Aspect=Perf|NounClass=Dclass	0	root	_	MSeg=d-i-na|Gloss=D-make-PRF
+8	dina	d.a	VERB	_	Aspect=Perf|NounClass=Dclass	0	root	_	MSeg=d-i-na|Gloss=D-make-PRF|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=njo
 
 # sent_id = chechen_wolf_139
@@ -1179,7 +1179,7 @@
 18	,	,	PUNCT	_	_	15	punct	_	_
 19	vooghush	d.aaxka	VERB	_	ConvType=Sim|NounClass=Vclass|VerbForm=Conv	0	root	_	MSeg=v-oogh-ush|Gloss=V-come-CVBsim
 20	vara	du	AUX	_	NounClass=Vclass|Tense=Past	19	aux	_	MSeg=v-ara|Gloss=V-be.PST
-21	so	so	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	MSeg=so|Gloss=1SG.ABS
+21	so	so	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	MSeg=so|Gloss=1SG.ABS|SpaceAfter=No
 22	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_150_151
@@ -1304,7 +1304,7 @@
 6	vohwchuxa'ajel	xa'ad.a	VERB	_	NounClass=Jclass	9	ccomp:reported	_	MSeg=vohw-chu-xo'a-j-e-l|Gloss=down-into-seat-J-make-IMP|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	"	"	PUNCT	_	_	6	punct	_	_
-9	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
+9	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_171_172
@@ -1383,7 +1383,7 @@
 3	dittana	d.etta	VERB	_	ConvType=Ant|NounClass=Dclass|VerbForm=Conv	6	advcl	_	MSeg=d-itta-na|Gloss=D-hit-CVBant|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	t'aaq	t'aaqqa	ADV	_	_	6	advmod	_	MSeg=t'aaq|Gloss=then
-6	dwadaella	d.aala	VERB	_	Aspect=Perf|NounClass=Dclass	0	root	_	MSeg=dwa-d-aella|Gloss=away-D-finish.PRF
+6	dwadaella	d.aala	VERB	_	Aspect=Perf|NounClass=Dclass	0	root	_	MSeg=dwa-d-aella|Gloss=away-D-finish.PRF|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_183
