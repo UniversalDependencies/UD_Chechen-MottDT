@@ -1,6 +1,5 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](https://universaldependencies.org/contributing/repository_files.html#the-readme-file) for README guidelines) ...
 Chechen-MottDT is a Universal Dependencies treebank of the Chechen language (Nakh-Daghestanian). 
 The annotation for part of speech tags and features was coverted from interlinear glosses, while dependencies were annotated manually.
 The treebank contains approximately 2,100 tokens.
@@ -33,7 +32,7 @@ Data available since: UD v2.19
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: oral_folktales grammar_examples
+Genre: fiction grammar_examples
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
