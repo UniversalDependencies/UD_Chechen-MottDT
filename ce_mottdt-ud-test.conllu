@@ -554,12 +554,12 @@
 4-6	chu'ajollina	_	_	_	_	_	_	_	SpaceAfter=No
 4	chu	chu	VERB	_	_	3	case	_	MSeg=chu|Gloss=inside
 5	'a	'a	CCONJ	_	_	6	cc	_	MSeg='a|Gloss=CL
-6	jollina	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	15	advcl	_	MSeg=j-olli-na|Gloss=J-put-CVBant
+6	jollina	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	15	advcl	_	MSeg=j-olli-na|Gloss=J-put-CVBant|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8-11	gi'ajollina	_	_	_	_	_	_	_	SpaceAfter=No
 8	gi	gi	ADV	_	_	10	advmod	_	MSeg=gi|Gloss=back
 9	'a	'a	CCONJ	_	_	10	cc	_	MSeg='a|Gloss=CL
-10	jollina	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	15	advcl	_	MSeg=j-olli-na|Gloss=J-put-CVBant|SpaceAfter=No
+10	jollina	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	15	advcl	_	MSeg=j-olli-na|Gloss=J-put-CVBant
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	borz	borz	NOUN	_	Case=Abs	13	obj	_	MSeg=borz|Gloss=wolf
 13	ecna	ieca	VERB	_	ConvType=Ant|VerbForm=Conv	15	advcl	_	MSeg=ec-na|Gloss=take-CVBant|SpaceAfter=No
@@ -698,8 +698,8 @@
 8	gira	gira	ADV	_	_	9	advmod	_	MSeg=gira|Gloss=back.ADV
 9	vohwjeera	d.aala	VERB	_	NounClass=Jclass|Tense=Fut	13	ccomp:reported	_	MSeg=vohw-j-eera|Gloss=down-J-get.FUT
 10	jaac	du	AUX	_	NounClass=Jclass|Polarity=Neg|Tense=Pres	9	aux	_	MSeg=j-aac|Gloss=J-be.PRS.NEG|SpaceAfter=No
-11	,	,	PUNCT	_	_	9	punct	_	_
-12	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	9	punct	_	_
 13	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
@@ -928,7 +928,7 @@
 6-8	wo'hottaina	_	_	_	_	_	_	_	SpaceAfter=No
 6	wo	wo	ADV	_	_	8	advmod	_	MSeg=wo|Gloss=down
 7	'a	'a	CCONJ	_	_	8	cc	_	MSeg='a|Gloss=CL
-8	hottaina	hottad.a	VERB	_	ConvType=Ant|VerbForm=Conv	12	advcl	_	MSeg=hotta-ina|Gloss=put-CVBant|SpaceAfter=No
+8	hottaina	hottad.a	VERB	_	ConvType=Ant|VerbForm=Conv	12	advcl	_	MSeg=hotta-ina|Gloss=put-CVBant
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	zhwaliega	zhwaela	NOUN	_	Case=All	12	iobj	_	MSeg=zhwali-ega|Gloss=dog-ALL
 11	xaattar	xaattar	NOUN	_	Case=Abs	12	obj	_	MSeg=xaattar|Gloss=question
@@ -946,7 +946,7 @@
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	shaa	shaa	PRON	_	Log=Yes|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	nsubj	_	MSeg=shaa|Gloss=3SG.REFL
 8	gi...	gi	X	_	_	9	reparandum	_	MSeg=[gi...]|Gloss=gi...
-9-10	gimajoelniera	_	_	_	_	_	_	_	_
+9-10	gimajoelniera	_	_	_	_	_	_	_	SpaceAfter=No
 9	gi	gi	VERB	_	_	10	obl	_	MSeg=gi|Gloss=back
 10	majoelniera	d.illa	VERB	_	NounClass=Jclass|Tense=Past	0	root	_	MSeg=ma-j-oel-niera|Gloss=EMPH-J-put-Rem.PST
 11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
@@ -1094,8 +1094,8 @@
 12	dedda	d.ada	VERB	_	ConvType=Ant|NounClass=Dclass|VerbForm=Conv	18	advcl	_	MSeg=d-edda|Gloss=D-run.CVBant|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	dodash	d.ada	VERB	_	ConvType=Sim|NounClass=Dclass|VerbForm=Conv	15	xcomp	_	MSeg=d-ooda-sh|Gloss=D-go-CVBsim
-15	leattash	laatta	AUX	_	ConvType=Sim|VerbForm=Conv	18	advcl	_	MSeg=leatta-sh|Gloss=stand-CVBsim|SpaceAfter=No
-16	,	,	PUNCT	_	_	14	punct	_	_
+15	leattash	laatta	VERB	_	ConvType=Sim|VerbForm=Conv	18	advcl	_	MSeg=leatta-sh|Gloss=stand-CVBsim|SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	chwogalna	cwoogal	NOUN	_	Case=Dat	18	obl	_	MSeg=chwogal-na|Gloss=fox-DAT
 18	t'eqachcha	t'e	VERB	_	Aspect=Perf	0	root	_	MSeg=t'e-qachcha|Gloss=on-reach.PRF|SpaceAfter=No
 19	.	.	PUNCT	_	_	18	punct	_	_
@@ -1116,8 +1116,8 @@
 # sent_id = chechen_wolf_135_136
 # text = Dedda dodachu cwogalie "Sobar diel!" aell
 # text_en = To the fox which was running away: 'Wait!' they said
-1	Dedda	d.ada	VERB	_	ConvType=Ant|NounClass=Dclass|VerbForm=Conv	3	acl	_	MSeg=d-edda|Gloss=D-run.CVBant
-2	dodachu	d.ada	AUX	_	Case=Obl|NounClass=Dclass	1	aux	_	MSeg=d-ooda-chu|Gloss=D-go-OBL
+1	Dedda	d.ada	VERB	_	ConvType=Ant|NounClass=Dclass|VerbForm=Conv	2	xcomp	_	MSeg=d-edda|Gloss=D-run.CVBant
+2	dodachu	d.ada	VERB	_	Case=Obl|NounClass=Dclass	9	acl	_	MSeg=d-ooda-chu|Gloss=D-go-OBL
 3	cwogalie	cwoogal	NOUN	_	Case=All	9	iobj	_	MSeg=cwogal-ie|Gloss=fox-ALL
 4	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 5	Sobar	soobar	NOUN	_	Case=Abs	6	obj	_	MSeg=soobar|Gloss=patience
@@ -1183,17 +1183,6 @@
 20	vara	du	AUX	_	NounClass=Vclass|Tense=Past	19	aux	_	MSeg=v-ara|Gloss=V-be.PST
 21	so	so	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	MSeg=so|Gloss=1SG.ABS|SpaceAfter=No
 22	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
-
-# sent_id = chechen_wolf_150_151
-# text = cu hwaigarachu gaali chu joellie shaa kielarjaqqahw
-# text_en = "After putting me into your sack," (the wolf said to me) "help me (to escape)."
-1	cu	cu	PRON	_	PronType=Dem	3	obj	_	MSeg=cu|Gloss=DEM
-2	hwaigarachu	hwo	ADJ	_	Case=Abl|Number=Sing|Person=2	3	nmod	_	MSeg=hwaigarachu|Gloss=2SG.ABL.NMZ
-3	gaali	gaali	NOUN	_	Case=Abs	5	obl	_	MSeg=gaali|Gloss=sack
-4	chu	chu	ADP	_	AdpType=Post	3	case	_	MSeg=chu|Gloss=inside
-5	joellie	d.illa	VERB	_	ConvType=Imm|NounClass=Jclass|VerbForm=Conv	7	advcl	_	MSeg=j-oll-ie|Gloss=J-put-CVBimm
-6	shaa	shaa	PRON	_	Log=Yes|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	MSeg=shaa|Gloss=3SG.REFL
-7	kielarjaqqahw	d.aqqa	VERB	_	NounClass=Jclass	0	root	_	MSeg=k'elara-j-aqqa-hw|Gloss=under-J-take-IMP
 
 # sent_id = chechen_wolf_152_153
 # text = "Shaa hwuuna qo dika diira dara," aella
@@ -1348,12 +1337,12 @@
 # text = hwunax ghoi, dika shi ghash jaa.
 # text_en = 'Go to the forest, bring two good sticks.'
 1	hwunax	hwun	NOUN	_	Case=Lat	2	obl	_	MSeg=hwunax|Gloss=forest.LAT
-2	ghoi	d.axa	VERB	_	ConvType=Imm|VerbForm=Conv	0	root	_	MSeg=ghoi|Gloss=go.CVBimm
+2	ghoi	d.axa	VERB	_	ConvType=Imm|VerbForm=Conv	0	root	_	MSeg=ghoi|Gloss=go.CVBimm|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	dika	dika	ADJ	_	_	6	amod	_	MSeg=dika|Gloss=good
 5	shi	shi'	NUM	_	_	6	nummod	_	MSeg=shi|Gloss=two
 6	ghash	ghazh	NOUN	_	Case=Abs	7	obj	_	MSeg=ghazh|Gloss=stick
-7	jaa	d.aan	VERB	_	Mood=Imp|NounClass=Jclass	2	conj	_	MSeg=j-aa|Gloss=J-bring.IMP
+7	jaa	d.aan	VERB	_	Mood=Imp|NounClass=Jclass	2	conj	_	MSeg=j-aa|Gloss=J-bring.IMP|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = chechen_wolf_178_179
