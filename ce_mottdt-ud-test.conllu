@@ -1570,7 +1570,7 @@
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	c'ajaa	d.axa	VERB	_	NounClass=Jclass|VerbForm=Inf	10	xcomp	_	MSeg=c'a-j-aa|Gloss=home-J-go.INF
 10	jaella	aala	VERB	_	Aspect=Perf|NounClass=Jclass	0	root	_	MSeg=j-aella|Gloss=J-get.PRF|SpaceAfter=No
-11	.	.	PUNCT	_	_	10	punct	-	_
+11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = chechen_witch_037_044
 # text = t'aaq novq' jooghush jooghush, jooghush jooghush k'aadjella, ishta oqetta, wolsh, cwan dechgana t'e korta'a bolush, wojizhna ez.
