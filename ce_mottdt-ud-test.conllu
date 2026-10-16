@@ -432,7 +432,7 @@
 # text_en = Then it (the wolf) said to the old man:
 1	t'aaq	t'aaqqa	ADV	_	_	6	advmod	_	MSeg=t'aaq|Gloss=then
 2	cu	cu	DET	_	PronType=Dem	4	det	_	MSeg=cu|Gloss=DEM
-3	voqqachu	d.oqqa	ADJ	_	Case=Obl|NounClass=Vclass	4	amod	_	MSeg=v-oqqa-chu|Gloss=V-old-OBL
+3	voqqachu	d.oqqa	ADJ	_	Case=Acc|NounClass=Vclass	4	amod	_	MSeg=v-oqqa-chu|Gloss=V-old-OBL
 4	stagie	stag	NOUN	_	Case=All	6	obl	_	MSeg=stag-ie|Gloss=person-ALL
 5	cuo	cuo	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	MSeg=cuo|Gloss=3SG.ERG
 6	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
@@ -1117,7 +1117,7 @@
 # text = Dedda dodachu cwogalie "Sobar diel!" aell
 # text_en = To the fox which was running away: 'Wait!' they said
 1	Dedda	d.ada	VERB	_	ConvType=Ant|NounClass=Dclass|VerbForm=Conv	2	xcomp	_	MSeg=d-edda|Gloss=D-run.CVBant
-2	dodachu	d.ada	VERB	_	Case=Obl|NounClass=Dclass|VerbForm=Vnoun	9	acl	_	MSeg=d-ooda-chu|Gloss=D-go-OBL
+2	dodachu	d.ada	VERB	_	Case=Acc|NounClass=Dclass|VerbForm=Vnoun	9	acl	_	MSeg=d-ooda-chu|Gloss=D-go-OBL
 3	cwogalie	cwoogal	NOUN	_	Case=All	9	iobj	_	MSeg=cwogal-ie|Gloss=fox-ALL
 4	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 5	Sobar	soobar	NOUN	_	Case=Abs	6	obj	_	MSeg=soobar|Gloss=patience
@@ -1129,7 +1129,7 @@
 # sent_id = chechen_wolf_137_138
 # text = voqqachu staga shie gaalie wohottaina, xaattar dina.
 # text_en = The old man, putting down his sack, he asked.
-1	voqqachu	d.oqqa	ADJ	_	Case=Obl|NounClass=Vclass	2	amod	_	MSeg=v-oqqa-chu|Gloss=V-old-OBL
+1	voqqachu	d.oqqa	ADJ	_	Case=Acc|NounClass=Vclass	2	amod	_	MSeg=v-oqqa-chu|Gloss=V-old-OBL
 2	staga	stag	NOUN	_	Case=Erg	5	nsubj	_	MSeg=stag-a|Gloss=person-ERG
 3	shie	shie	PRON	_	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	4	nmod	_	MSeg=shie|Gloss=3SG.REFL.POSS
 4	gaalie	gaali	NOUN	_	Case=Abs	5	obj	_	MSeg=gaalie|Gloss=sack
@@ -1323,7 +1323,7 @@
 # text = T'aaq voqqachu stagie aella cwogalo: "Valol!"
 # text_en = Then the fox said to the old man: "Go!"
 1	T'aaq	t'aaqqa	ADV	_	_	4	advmod	_	MSeg=t'aaq|Gloss=then
-2	voqqachu	d.oqqa	ADJ	_	Case=Obl|NounClass=Vclass	3	amod	_	MSeg=v-oqqa-chu|Gloss=V-old-OBL
+2	voqqachu	d.oqqa	ADJ	_	Case=Acc|NounClass=Vclass	3	amod	_	MSeg=v-oqqa-chu|Gloss=V-old-OBL
 3	stagie	stag	NOUN	_	Case=All	4	iobj	_	MSeg=stag-ie|Gloss=person-ALL
 4	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
 5	cwogalo	cwoogal	NOUN	_	Case=Erg	4	nsubj	_	MSeg=cwogal-o|Gloss=fox-ERG|SpaceAfter=No
