@@ -111,7 +111,7 @@
 10	lahijna	lahad.a	VERB	_	ConvType=Ant|VerbForm=Conv	7	acl:relcl	_	MSeg=lahij-na|Gloss=gather-CVBant
 11	jolu	du	AUX	_	NounClass=Jclass|VerbForm=Part	10	aux	_	MSeg=j-olu|Gloss=J-be.PTCP
 12	huma	huma	NOUN	_	Case=Abs	7	conj	_	MSeg=huma|Gloss=thing
-13	jeg	d.eg	DET	_	NounClass=Jclass|PronType=Prs	12	det	_	MSeg=j-eg|Gloss=J-all
+13	jeg	d.eg	ADJ	_	NounClass=Jclass	12	amod	_	MSeg=j-eg|Gloss=J-all
 14	gaali	gaali	NOUN	_	Case=Abs	7	conj	_	MSeg=gaali|Gloss=sack|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	huma	huma	NOUN	_	Case=Abs	7	conj	_	MSeg=huma|Gloss=thing
@@ -554,9 +554,9 @@
 4-6	chu'ajollina	_	_	_	_	_	_	_	SpaceAfter=No
 4	chu	chu	VERB	_	_	3	case	_	MSeg=chu|Gloss=inside
 5	'a	'a	CCONJ	_	_	6	cc	_	MSeg='a|Gloss=CL
-6	jollina	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	15	advcl	_	MSeg=j-olli-na|Gloss=J-put-CVBant|SpaceAfter=No
+6	jollina	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	15	advcl	_	MSeg=j-olli-na|Gloss=J-put-CVBant
 7	,	,	PUNCT	_	_	6	punct	_	_
-8-11	gi'ajollina	_	_	_	_	_	_	_	SpaceAfter=No
+8-10	gi'ajollina	_	_	_	_	_	_	_	SpaceAfter=No
 8	gi	gi	ADV	_	_	10	advmod	_	MSeg=gi|Gloss=back
 9	'a	'a	CCONJ	_	_	10	cc	_	MSeg='a|Gloss=CL
 10	jollina	d.illa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	15	advcl	_	MSeg=j-olli-na|Gloss=J-put-CVBant
@@ -686,7 +686,7 @@
 14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = chechen_wolf_055_057
-# text = "Hwaa'hwa'a qo'anahw xattalc, shaa hwuuna gira vohwjeera jaac," aella
+# text = "Hwaa'hwa'a qo'anahw xattalc, shaa hwuuna gira vohwjeera jaac," aella.
 # text_en = 'No, until we've asked at three places, I will not get off your back,' (the wolf) said.
 1	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	Hwaa'hwa'a	haa-haa'a	INTJ	_	_	4	discourse	_	MSeg=hwaahwa'a|Gloss=no
@@ -1425,7 +1425,7 @@
 12	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = chechen_witch_012_014
-# text = T'aaq baxch oc naanas aella: ''Dwadoula!''
+# text = T'aaq baxch oc naanas aella: "Dwadoula!"
 # text_en = When they went, the mother said (to them): ''Go away!''
 1	T'aaq	t'aaqqa	ADV	_	_	2	advmod	_	MSeg=t'aaq|Gloss=then
 2	baxch	d.axa	VERB	_	ConvType=Temp|NounClass=Bclass|VerbForm=Conv	5	advcl	_	MSeg=b-ax-cha|Gloss=B-go-CVBtemp
@@ -1433,10 +1433,10 @@
 4	naanas	naana	NOUN	_	Case=Erg	5	nsubj	_	MSeg=naana-s|Gloss=mother-ERG
 5	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 6	:	:	PUNCT	_	_	8	punct	_	_
-7	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Dwadoula	d.oula	VERB	_	Mood=Imp|NounClass=Dclass	5	ccomp:reported	_	MSeg=dwa-d-oula|Gloss=away-D-get.IMP|SpaceAfter=No
 9	!	!	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	'	'	PUNCT	_	_	8	punct	_	_
+10	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = chechen_witch_015
 # text = san cwa' bie jow jaac
@@ -1452,20 +1452,20 @@
 # text_en = 'I can't let her go (with you)'
 1	jara	jara	PRON	_	Case=Abs|Number=Sing|Person=3|PronType=Dem	2	obj	_	MSeg=jara|Gloss=3SG.DEM.ABS
 2	jaita	d.axa	VERB	_	NounClass=Jclass|VerbForm=Inf|Voice=Caus	3	xcomp	_	MSeg=j-a-jt-a|Gloss=J-go-CAUS-INF
-3	jish	jish	NOUN	_	Case=Abs	2	nsubj	_	MSeg=jish|Gloss=possibility
+3	jish	jish	NOUN	_	Case=Abs	4	nsubj	_	MSeg=jish|Gloss=possibility
 4	jaac	du	AUX	_	NounClass=Jclass|Polarity=Neg|Tense=Pres	0	root	_	MSeg=j-aac|Gloss=J-be.PRS.NEG
-5	shie	shie	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	2	nsubj	_	MSeg=shie|Gloss=3SG.REFL.POSS
+5	shie	shie	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs|Refl=Yes|Log=yes	3	nmod	_	MSeg=shie|Gloss=3SG.REFL.POSS
 
 # sent_id = chechen_witch_018_019
-# text = Cuo, ''Maaala!'' aella xilla cu jow.
+# text = Cuo, "Maaala!" aella xilla cu jow.
 # text_en = ''Don't ask her,'' she said.
-1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2-3	Ma	_	_	_	_	_	_	_	_
 2	ma	ma	PART	_	Polarity=Neg	3	advmod	_	MSeg=ma|Gloss=PROH|SpaceAfter=No
 3	aala	aala	VERB	_	Mood=Imp	7	ccomp:reported	_	MSeg=aala|Gloss=say.IMP
 4	shiega	shie	PRON	_	Case=All|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	MSeg=shie-ga|Gloss=3SG.REFL-ALL|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	3	punct	_	_
+6	"	"	PUNCT	_	_	3	punct	_	_
 7	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 
 # sent_id = chechen_witch_020_021
@@ -1509,28 +1509,28 @@
 6	xilla	xila	AUX	_	Aspect=Perf	5	aux	_	MSeg=xilla|Gloss=be.PRF
 
 # sent_id = chechen_witch_026_027
-# text = T'aaq cuo aella: ''Sa viedar hwaldyzna.''
+# text = T'aaq cuo aella: "Sa viedar hwaldyzna."
 # text_en = Then she said: ''My bucket is full.''
 1	T'aaq	t'aaqqa	ADV	_	_	3	advmod	_	MSeg=t'aaq|Gloss=then
 2	cuo	cuo	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	MSeg=cuo|Gloss=3SG.ERG
 3	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 4	:	:	PUNCT	_	_	3	punct	_	_
-5	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 6	Sa	so	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	nmod	_	MSeg=san|Gloss=1SG.GEN
 7	viedar	viedar	NOUN	_	Case=Abs	8	nsubj	_	MSeg=viedar|Gloss=bucket
 8	hwaldyzna	d.uza	VERB	_	Aspect=Perf|NounClass=Dclass	3	ccomp:reported	_	MSeg=hwal-d-yz-na|Gloss=up-D-fill-PRF|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	'	'	PUNCT	_	_	8	punct	_	_
+10	"	"	PUNCT	_	_	8	punct	_	_
 
 # sent_id = chechen_witch_028_029
-# text = ''Shaa c'ajaxa jollu,'' aell.
+# text = "Shaa c'ajaxa jollu," aell.
 # text_en = ''I'm going to go home,'' she said.
-1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Shaa	shaa	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	MSeg=shaa|Gloss=3SG.REFL
 3	c'ajaxa	d.axa	VERB	_	NounClass=Jclass|VerbForm=Inf	7	ccomp:reported	_	MSeg=c'a-j-axa|Gloss=home-J-go.INF
 4	jollu	du	AUX	_	NounClass=Jclass|Tense=Pres	3	aux	_	MSeg=j-ollu|Gloss=J-be.PROG.PRS|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	3	punct	_	_
+6	"	"	PUNCT	_	_	3	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1548,15 +1548,15 @@
 2	dwa	dwa	ADV	_	_	1	advmod	_	MSeg=dwa|Gloss=away
 
 # sent_id = chechen_witch_032_033
-# text = ''Vai cwanaa ghuura dara,'' aella.
+# text = "Vai cwanaa ghuura dara," aella.
 # text_en = ''We will go together (with you),'' they said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Vai	vaj	PRON	_	Case=Abs|Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	MSeg=vaj|Gloss=1PL.incl.ABS
 3	cwanaa	cwan	ADV	_	_	4	advmod	_	MSeg=cwanaa|Gloss=together
 4	ghuura	d.axa	VERB	_	Tense=Fut	8	ccomp:reported	_	MSeg=ghuura|Gloss=go.FUT
 5	dara	du	AUX	_	NounClass=Dclass|Tense=Past	4	aux	_	MSeg=d-ara|Gloss=D-be.PST|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-7	'	'	PUNCT	_	_	4	punct	_	_
+7	"	"	PUNCT	_	_	4	punct	_	_
 8	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -1720,15 +1720,15 @@
 13	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = chechen_witch_065_066
-# text = ''Vaa hwooza, hwadoolahw,'' aella
+# text = "Vaa hwooza, hwadoolahw," aella
 # text_en = ''Hey, bird, come here!'' she said
-1	'	'	PUNCT	_	_	5	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Vaa	vaa	INTJ	_	_	5	discourse	_	MSeg=vaa|Gloss=VOC
 3	hwooza	hwooza	NOUN	_	Case=Abs	5	vocative	_	MSeg=hwooza|Gloss=bird|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	hwadoolahw	d.aa	VERB	_	Mood=Imp|NounClass=Dclass	8	ccomp:reported	_	MSeg=hwa-d-oola-hw|Gloss=here-D-come-IMP|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	'	'	PUNCT	_	_	5	punct	_	_
+7	"	"	PUNCT	_	_	5	punct	_	_
 8	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
 
 # sent_id = chechen_witch_067
@@ -1755,34 +1755,34 @@
 7	hwoona	hwo	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	obl	_	MSeg=hwoona|Gloss=2SG.DAT
 
 # sent_id = chechen_witch_070_071
-# text = ''Shie ch'aabarsh, jersh hwajastahw,'' aell.
+# text = "Shie ch'aabarsh, jersh hwajastahw," aell.
 # text_en = ''Untie my braids,'' she said.
-1	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	Shie	shie	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	3	nmod	_	MSeg=shie|Gloss=3SG.REFL.POSS
 3	ch'aabarsh	ch'aaba	NOUN	_	Case=Abs|Number=Plur	6	dislocated	_	MSeg=ch'aaba-rsh|Gloss=braid-PL|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	jersh	jersh	PRON	_	Case=Abs|Number=Plur|Person=3|PronType=Dem	6	obj	_	MSeg=jersh|Gloss=3PL.DEM.ABS
 6	hwajastahw	d.aasta	VERB	_	Mood=Imp|NounClass=Jclass	9	ccomp:reported	_	MSeg=hwa-j-asta-hw|Gloss=here-J-untie-IMP|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	SpaceAfter=No
-8	'	'	PUNCT	_	_	6	punct	_	_
+8	"	"	PUNCT	_	_	6	punct	_	_
 9	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = chechen_witch_072_074
-# text = T'aaq cuo aella: ''Hwaa'hwa, jostura jaac shaa.''
+# text = T'aaq cuo aella: "Hwaa'hwa, jostura jaac shaa."
 # text_en = then it (the bird) said: ''No, I will not untie (them).''
 1	T'aaq	t'aaqqa	ADV	_	_	3	advmod	_	MSeg=t'aaq|Gloss=then
 2	cuo	cuo	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	MSeg=cuo|Gloss=3SG.ERG
 3	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 4	:	:	PUNCT	_	_	3	punct	_	_
-5	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 6	Hwaa'hwa	haa-haa'a	INTJ	_	_	8	discourse	_	MSeg=hwaa'hwa|Gloss=no|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	jostura	maarxa dasta	VERB	_	NounClass=Jclass|Tense=Fut	3	ccomp:reported	_	MSeg=j-ostu-ra|Gloss=J-untie-FUT
 9	jaac	du	AUX	_	NounClass=Jclass|Polarity=Neg|Tense=Pres	8	aux	_	MSeg=j-aac|Gloss=J-be.PRS.NEG
 10	shaa	shaa	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	nsubj	_	MSeg=shaa|Gloss=3SG.REFL|SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
-12	'	'	PUNCT	_	_	8	punct	_	_
+12	"	"	PUNCT	_	_	8	punct	_	_
 
 # sent_id = chechen_witch_077_078
 # text = shai naewarg k'a du'ush so dolchu xeenahw ahw shaa dwaeqqijra
@@ -1799,14 +1799,14 @@
 10	dwaeqqijra	aeqqad.a	VERB	_	Evident=Fh	0	root	_	MSeg=dwa-eqqij-ra|Gloss=away-drive-WPST
 
 # sent_id = chechen_witch_079_080
-# text = ''Shaa joostura jaac,'' aell.
+# text = "Shaa joostura jaac," aell.
 # text_en = ''I will not untie them,'' it (the bird) said.
-1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Shaa	shaa	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	nsubj	_	MSeg=shaa|Gloss=3SG.REFL
 3	joostura	d.aasta	VERB	_	NounClass=Jclass|Tense=Fut	7	ccomp:reported	_	MSeg=j-oostu-ra|Gloss=J-untie-FUT
 4	jaac	du	AUX	_	NounClass=Jclass|Polarity=Neg|Tense=Pres	3	aux	_	MSeg=j-aac|Gloss=J-be.PRS.NEG|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	3	punct	_	_
+6	"	"	PUNCT	_	_	3	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1844,28 +1844,28 @@
 10	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = chechen_witch_088_089
-# text = Cu q'igie aella: ''Hwajoolahw, q'ig.''
+# text = Cu q'igie aella: "Hwajoolahw, q'ig."
 # text_en = The girl said to the crow: ''Crow, come here.''
 1	Cu	i	DET	_	PronType=Dem	2	det	_	MSeg=cu|Gloss=DEM
 2	q'igie	q'ig	NOUN	_	Case=All	3	obl	_	MSeg=q'ijgie|Gloss=crow.ALL
 3	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 4	:	:	PUNCT	_	_	3	punct	_	_
-5	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Hwajoolahw	d.aa	VERB	_	Mood=Imp|NounClass=Jclass	3	ccomp:reported	_	MSeg=hwa-j-oola-hw|Gloss=here-J-come-IMP|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	q'ig	q'ig	NOUN	_	Case=Abs	6	vocative	_	MSeg=q'ig|Gloss=crow|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
-10	'	'	PUNCT	_	_	6	punct	_	_
+10	"	"	PUNCT	_	_	6	punct	_	_
 
 # sent_id = chechen_witch_090
-# text = ''Shii k'aazharsh hwajaastahw,'' aell.
+# text = "Shii k'aazharsh hwajaastahw," aell.
 # text_en = ''Please, untie my braids,'' she said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Shii	shie	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	3	nmod	_	MSeg=shii|Gloss=3SG.REFL.POSS
 3	k'aazharsh	k'aazhar	NOUN	_	Case=Abs|Number=Plur	4	obj	_	MSeg=k'aazhar-sh|Gloss=braid-PL
 4	hwajaastahw	d.aasta	VERB	_	Mood=Imp|NounClass=Jclass	7	ccomp:reported	_	MSeg=hwa-j-aasta-hw|Gloss=here-J-untie-IMP|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	4	punct	_	_
 7	aell	aala	VERB	_	VerbForm=Conv	0	root	_	MSeg=aell|Gloss=say.CVB|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1891,14 +1891,14 @@
 12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = chechen_witch_095_096
-# text = ''Shaa joostara jaac,'' aell.
+# text = "Shaa joostara jaac," aell.
 # text_en = ''I will not untie (them)'' it (crow) said.
-1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Shaa	shaa	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	nsubj	_	MSeg=shaa|Gloss=3SG.REFL
 3	joostara	d.aasta	VERB	_	NounClass=Jclass|Tense=Fut	7	ccomp:reported	_	MSeg=j-oosta-ra|Gloss=J-untie-FUT
 4	jaac	du	AUX	_	NounClass=Jclass|Polarity=Neg|Tense=Pres	3	aux	_	MSeg=j-aac|Gloss=J-be.PRS.NEG|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	3	punct	_	_
+6	"	"	PUNCT	_	_	3	punct	_	_
 7	aell	moxie d.aala	VERB	_	ConvType=Ant|VerbForm=Conv	0	root	_	MSeg=aell|Gloss=say.CVBant|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -1919,7 +1919,7 @@
 5	qozlox	qozlox	ADV	_	_	2	advmod	_	MSeg=qozlox|Gloss=third.time
 
 # sent_id = chechen_witch_099_102
-# text = hwabooghash qoqun, qoqunie aella: ''Aaa qoqaa, hwaboolahw!''
+# text = hwabooghash qoqun, qoqunie aella: "Aaa qoqaa, hwaboolahw!"
 # text_en = a dove was approaching, she said to the dove: ''Dove, please come here!''
 1	hwabooghash	d.axa	VERB	_	ConvType=Sim|NounClass=Bclass|VerbForm=Conv	5	advcl	_	MSeg=hwa-b-oogha-sh|Gloss=here-B-come-CVBsim
 2	qoqun	qoqa	X	_	_	1	nsubj	_	MSeg=qoqun|Gloss=qoqun|SpaceAfter=No
@@ -1927,13 +1927,13 @@
 4	qoqunie	qoqa	NOUN	_	Case=All	5	iobj	_	MSeg=qoqunie|Gloss=dove.ALL
 5	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 6	:	:	PUNCT	_	_	5	punct	_	_
-7	'	'	PUNCT	_	_	11	punct	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 8	Aaa	aaa	X	_	_	11	discourse	_	MSeg=[aaa]|Gloss=[aaa]
 9	qoqaa	qoqa	NOUN	_	Case=Abs	11	vocative	_	MSeg=qoqaa|Gloss=dove.VOC|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	hwaboolahw	d.aa	VERB	_	Mood=Imp|NounClass=Bclass	5	ccomp:reported	_	MSeg=hwa-b-oola-hw|Gloss=here-B-come-IMP|SpaceAfter=No
 12	!	!	PUNCT	_	_	11	punct	_	SpaceAfter=No
-13	'	'	PUNCT	_	_	11	punct	_	_
+13	"	"	PUNCT	_	_	11	punct	_	_
 
 # sent_id = chechen_witch_103
 # text = as sai deegha t'era zhizhg do'aitara hwoega
@@ -1947,15 +1947,15 @@
 7	hwoega	hwo	PRON	_	Case=All|Number=Sing|Person=2|PronType=Prs	6	obj:caus	_	MSeg=hwoega|Gloss=2SG.ALL
 
 # sent_id = chechen_witch_104
-# text = ''Shie chaabarsh hwajaasta!'' aell.
+# text = "Shie chaabarsh hwajaasta!" aell.
 # text_en = ''Untie my braids!'' she said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Shie	shie	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	3	nmod	_	MSeg=shie|Gloss=3SG.REFL.POSS
 3	chaabarsh	ch'aaba	NOUN	_	Case=Abs|Number=Plur	4	obj	_	MSeg=chaaba-rsh|Gloss=braid-PL
 4	hwajaasta	d.aasta	VERB	_	Mood=Imp|NounClass=Jclass	7	ccomp:reported	_	MSeg=hwa-j-aasta|Gloss=here-J-untie.IMP|SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
-7	aell	moxie d.aala	VERB	_	ConvType=Ant|VerbForm=Conv	0	root	_	MSeg=aell|Gloss=say.CVBant|SpaceAfter=No
+6	"	"	PUNCT	_	_	4	punct	_	_
+7	aell	d.aala	VERB	_	ConvType=Ant|VerbForm=Conv	0	root	_	MSeg=aell|Gloss=say.CVBant|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = chechen_witch_105
@@ -1969,9 +1969,9 @@
 6	daac	du	AUX	_	NounClass=Dclass|Polarity=Neg|Tense=Pres	5	aux	_	MSeg=d-aac|Gloss=D-be.PRS.NEG
 
 # sent_id = chechen_witch_106
-# text = ''Chaabarsh hwa'jostur ju,'' aell.
+# text = "Chaabarsh hwa'jostur ju," aell.
 # text_en = ''I will untie your braids.''
-1	'	'	PUNCT	_	_	5	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Chaabarsh	ch'aaba	NOUN	_	Case=Abs|Number=Plur	5	obj	_	MSeg=chaaba-rsh|Gloss=braid-PL
 3-5	hwa'jostur	_	_	_	_	_	_	_	_
 3	hwa	hwa	ADV	_	_	5	advmod	_	MSeg=hwa|Gloss=here|SpaceAfter=No
@@ -1979,7 +1979,7 @@
 5	joostura	d.aasta	VERB	_	NounClass=Jclass|Tense=Fut	9	ccomp:reported	_	MSeg=j-oostu-ra|Gloss=J-untie-FUT
 6	ju	du	AUX	_	NounClass=Jclass|Tense=Pres	5	aux	_	MSeg=j-u|Gloss=J-be.PRS|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	SpaceAfter=No
-8	'	'	PUNCT	_	_	5	punct	_	_
+8	"	"	PUNCT	_	_	5	punct	_	_
 9	aell	moxie d.aala	VERB	_	VerbForm=Conv	0	root	_	MSeg=aell|Gloss=say.CVB|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -2095,9 +2095,9 @@
 5	toexna	tuoxa	VERB	_	Aspect=Perf	0	root	_	MSeg=toex-na|Gloss=hit-PRF
 
 # sent_id = chechen_witch_122
-# text = ''Vaa naana micha novq'a joogha shaa?'' aell.
+# text = "Vaa naana micha novq'a joogha shaa?" aell.
 # text_en = ''Mother, which way should I come?'' she said.
-1	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	Vaa	vaa	INTJ	_	_	6	discourse	_	MSeg=vaa|Gloss=VOC
 3	naana	naana	NOUN	_	Case=Abs	6	vocative	_	MSeg=naana|Gloss=mother
 4	micha	micha	ADV	_	_	5	det	_	MSeg=micha|Gloss=where
@@ -2105,28 +2105,28 @@
 6	joogha	d.axa	VERB	_	NounClass=Jclass|Tense=Pres	10	ccomp:reported	_	MSeg=j-oogha|Gloss=J-come.PRS
 7	shaa	shaa	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	nsubj	_	MSeg=shaa|Gloss=3SG.REFL|SpaceAfter=No
 8	?	?	PUNCT	_	_	6	punct	_	SpaceAfter=No
-9	'	'	PUNCT	_	_	6	punct	_	_
-10	aell	moxie d.aala	VERB	_	VerbForm=Conv	0	root	_	MSeg=aell|Gloss=say.CVB|SpaceAfter=No
+9	"	"	PUNCT	_	_	6	punct	_	_
+10	aell	d.aala	VERB	_	VerbForm=Conv	0	root	_	MSeg=aell|Gloss=say.CVB|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = chechen_witch_124_125
-# text = ''Bezhni novq'a joola,'' aell.
+# text = "Bezhni novq'a joola," aell.
 # text_en = ''Take the cattle's way'' she said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Bezhni	bezhawu	NOUN	_	Case=Gen	3	nmod	_	MSeg=bezhni|Gloss=cattle.GEN
 3	novq'a	novq'a	ADV	_	_	4	advmod	_	MSeg=novq'a|Gloss=way.ADV
 4	joola	d.aa	VERB	_	Mood=Imp|NounClass=Jclass	7	ccomp:reported	_	MSeg=j-oola|Gloss=J-come.IMP|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	4	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = chechen_witch_126
 # text = juxa bezhni niq' qaachabella
 # text_en = Then the cattle's way ended.
-1	juxa	'	NOUN	_	Case=Gen	2	nmod	_	MSeg=bezhni|Gloss=cattle.GEN
-2	niq'	bezhawu	NOUN	_	Case=Abs	3	nsubj	_	MSeg=niq'|Gloss=way
-3	qaachabella	d.ala	VERB	_	Aspect=Perf|NounClass=Bclass	0	root	_	MSeg=qaacha-b-ella|Gloss=finish-B-get.PRF
+1	juxa	juxa??	NOUN	_	Case=Gen	2	nmod	_	MSeg=bezhni|Gloss=cattle.GEN
+2	niq'	niq'	NOUN	_	Case=Abs	3	nsubj	_	MSeg=niq'|Gloss=way
+3	qaachabella	d.ala??	VERB	_	Aspect=Perf|NounClass=Bclass	0	root	_	MSeg=qaacha-b-ella|Gloss=finish-B-get.PRF
 
 # sent_id = chechen_witch_127
 # text = t'aaq mohw toexna
@@ -2143,14 +2143,14 @@
 3	joola	d.aa	VERB	_	Mood=Imp|NounClass=Jclass	0	root	_	MSeg=j-oola|Gloss=J-come.IMP
 
 # sent_id = chechen_witch_133_134
-# text = ''Gouri novq'a joola,'' aell.
+# text = "Gouri novq'a joola," aell.
 # text_en = ''Take the horse's way.'' she said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Gouri	gour	NOUN	_	Case=Gen	3	nmod	_	MSeg=gouri|Gloss=horse.GEN
 3	novq'a	novq'a	ADV	_	_	4	advmod	_	MSeg=novq'a|Gloss=way.ADV
 4	joola	d.aa	VERB	_	Mood=Imp|NounClass=Jclass	7	ccomp:reported	_	MSeg=j-oola|Gloss=J-come.IMP|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	4	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
@@ -2266,7 +2266,7 @@
 6	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
 
 # sent_id = chechen_witch_153_155
-# text = T'aaq, t'aaq cu jeeshapo aella: ''Aaa vai txou t'e chuoexush xish du.''
+# text = T'aaq, t'aaq cu jeeshapo aella: "Aaa vai txou t'e chuoexush xish du."
 # text_en = Then, the witch said: ''Tears are coming through our roof.''
 1	T'aaq	t'aaqqa	ADV	_	_	6	advmod	_	MSeg=t'aaq|Gloss=then|SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
@@ -2275,7 +2275,7 @@
 5	jeeshapo	jeeshap	NOUN	_	Case=Erg	6	nsubj	_	MSeg=jeeshap-o|Gloss=witch-ERG
 6	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 7	:	:	PUNCT	_	_	6	punct	_	_
-8	'	'	PUNCT	_	_	13	punct	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 9	Aaa	aaa	X	_	_	13	discourse	_	MSeg=[aaa]|Gloss=[aaa]
 10	vai	vai	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	11	nmod	_	MSeg=vai|Gloss=1PL.GEN
 11	txou	txou	NOUN	_	Case=Abs	13	obl	_	MSeg=txou|Gloss=roof
@@ -2284,17 +2284,17 @@
 14	xish	xi	NOUN	_	Case=Abs|Number=Plur	13	nsubj	_	MSeg=xi-sh|Gloss=tear-PL
 15	du	du	AUX	_	NounClass=Dclass|Tense=Pres	13	aux	_	MSeg=d-u|Gloss=D-be.PRS|SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
-17	'	'	PUNCT	_	_	13	punct	_	_
+17	"	"	PUNCT	_	_	13	punct	_	_
 
 # sent_id = chechen_witch_158_161
-# text = ''Aarajaalie, hwaazha,'' aaa aella shie jowaga.
+# text = "Aarajaalie, hwaazha," aaa aella shie jowaga.
 # text_en = ''Go out, have a look,'' she said to her daughter.
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Aarajaalie	d.aala	VERB	_	Mood=Imp|NounClass=Jclass	8	ccomp:reported	_	MSeg=aara-j-aalie|Gloss=outside-J-get.IMP|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	hwaazha	hwaazha	VERB	_	Mood=Imp	2	parataxis	_	MSeg=hwaazha|Gloss=look.IMP|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	4	punct	_	_
 7	aaa	aaa	X	_	_	8	discourse	_	MSeg=[aaa]|Gloss=[aaa]
 8	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
 9	shie	shie	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs|Reflex=Yes	10	nmod	_	MSeg=shie|Gloss=3SG.REFL.POSS
@@ -2350,9 +2350,9 @@
 2	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
 
 # sent_id = chechen_witch_177_178
-# text = ''ishtta vai txout'e doelxush wesh cwa c'izbizli du,'' aella cuo.
+# text = "ishtta vai txout'e doelxush wesh cwa c'izbizli du," aella cuo.
 # text_en = ''A crybaby is crying on our roof,'' she said.
-1	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	ishtta	ishtta	ADV	_	_	6	advmod	_	MSeg=ishtta|Gloss=so
 3	vai	vai	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod	_	MSeg=vai|Gloss=1PL.GEN
 4-5	txout'e	_	_	_	_	_	_	_	_
@@ -2364,56 +2364,56 @@
 9	c'izbizli	c'izbizli	NOUN	_	Case=Abs	6	nsubj	_	MSeg=c'izbizli|Gloss=cry.baby|SpaceAfter=No
 10	du	du	AUX	_	NounClass=Dclass|Tense=Pres	6	aux	_	MSeg=d-u|Gloss=D-be.PRS|SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	SpaceAfter=No
-12	'	'	PUNCT	_	_	6	punct	_	_
+12	"	"	PUNCT	_	_	6	punct	_	_
 13	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 14	cuo	cuo	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	MSeg=cuo|Gloss=3SG.ERG
 15	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = chechen_witch_180
-# text = T'aaq jux: "Jalie NAME!''
+# text = T'aaq jux: "Jalie NAME!"
 # text_en = ''Go, NAME!''
 1	T'aaq	t'aaqqa	ADV	_	_	5	orphan	_	MSeg=t'aaq|Gloss=then
 2	jux	jux	ADV	_	_	5	orphan	_	MSeg=jux|Gloss=then
 3	:	:	PUNCT	_	_	5	punct	_	_
-4	'	'	PUNCT	_	_	5	punct	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	Jalie	d.aa	VERB	_	Mood=Imp|NounClass=Jclass	0	root	_	MSeg=j-alie|Gloss=J-go.IMP
 6	NAME	NAME	PROPN	_	Case=Abs	5	vocative	_	MSeg=NAME|Gloss=NAME|SpaceAfter=No
 7	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
-8	'	'	PUNCT	_	_	5	punct	_	_
+8	"	"	PUNCT	_	_	5	punct	_	_
 
 # sent_id = chechen_witch_181
-# text = ''As bweerij kaana lur ju.''
+# text = "As bweerij kaana lur ju."
 # text_en = ''I will give her two handfuls of nuts.''
-1	'	'	PUNCT	_	_	5	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	As	as	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	MSeg=as|Gloss=1SG.ERG
 3	bweerij	bwaara	NOUN	_	Case=Gen|Number=Plur	4	nmod	_	MSeg=bweerij|Gloss=nut.PL.GEN
 4	kaana	kaana	NOUN	_	Case=Abs	5	obj	_	MSeg=kaana|Gloss=handful
 5	lur	d.ala	VERB	_	Tense=Pres	0	root	_	MSeg=lur|Gloss=give.PRS
 6	ju	du	AUX	_	NounClass=Jclass|Tense=Pres	5	aux	_	MSeg=j-u|Gloss=J-be.PRS|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
-8	'	'	PUNCT	_	_	5	punct	_	_
+8	"	"	PUNCT	_	_	5	punct	_	_
 
 # sent_id = chechen_witch_182_183
-# text = ''Aella'a aala cynga.''
+# text = "Aella'a aala cynga."
 # text_en = ''Tell her that I said (that).
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2-3	Aella'a	_	_	_	_	_	_	_	_
 2	aella	aella	ADV	_	ConvType=Ant|VerbForm=Conv	4	compound:redup	_	MSeg=aella|Gloss=say.CVBant|SpaceAfter=No
 3	a	a	CCONJ	_	_	4	cc	_	MSeg='a|Gloss=CL
 4	aala	aala	VERB	_	Mood=Imp	0	root	_	MSeg=aala|Gloss=say.IMP
 5	cynga	i	PRON	_	Case=All|Number=Sing|Person=3|PronType=Prs	4	iobj	_	MSeg=cunga|Gloss=3SG.ALL|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
-7	'	'	PUNCT	_	_	4	punct	_	_
+7	"	"	PUNCT	_	_	4	punct	_	_
 
 # sent_id = chechen_witch_184_186
-# text = ''K'eljaala! Aala!'' aell.
+# text = "K'eljaala! Aala!" aell.
 # text_en = ''Get down! Tell (her)!'' she said.
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	K'eljaala	aala	VERB	_	Mood=Imp|NounClass=Jclass	7	ccomp:reported	_	MSeg=k'el-j-aala|Gloss=down-J-get.IMP|SpaceAfter=No
 3	!	!	PUNCT	_	_	2	punct	_	_
 4	Aala	aala	VERB	_	Mood=Imp	2	parataxis	_	MSeg=aala|Gloss=say.IMP|SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	2	punct	_	_
+6	"	"	PUNCT	_	_	2	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -2427,10 +2427,16 @@
 5	tygsh	tiga	VERB	_	ConvType=Sim|VerbForm=Conv	0	root	_	MSeg=tyg-sh|Gloss=obey-CVBsim
 6	caxilla	xilla	AUX	_	Aspect=Perf|Polarity=Neg	5	aux	_	MSeg=ca-xilla|Gloss=NEG-be.PRF
 
+# sent_id = chechen_witch_196
+# text = jalie
+# text_en = Go, NAME!
+1	jalie	d.aa	VERB	_	Mood=Imp|NounClass=Jclass	0	root	_	MSeg=j-alie|Gloss=J-go.IMP
+2	NAME	NAME	PROPN	_	Case=Abs	1	nsubj	_	MSeg=NAME|Gloss=NAME
+
 # sent_id = chechen_witch_198_199
-# text = ''As bweerij kaana lur ju, aala!''
+# text = "As bweerij kaana lur ju, aala!"
 # text_en = ''I will give her two handfuls of nuts, tell (her)!''
-1	'	'	PUNCT	_	_	5	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	As	as	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	MSeg=as|Gloss=1SG.ERG
 3	bweerij	bwaara	PRON	_	Case=Gen|Number=Plur|PronType=Prs	4	nmod	_	MSeg=bweerij|Gloss=nut.PL.GEN
 4	kaana	kaana	NOUN	_	Case=Abs	5	obj	_	MSeg=kaana|Gloss=handful
@@ -2439,30 +2445,35 @@
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	aala	aala	VERB	_	Mood=Imp	5	parataxis	_	MSeg=aala|Gloss=say.IMP|SpaceAfter=No
 9	!	!	PUNCT	_	_	8	punct	_	SpaceAfter=No
-10	'	'	PUNCT	_	_	5	punct	_	_
+10	"	"	PUNCT	_	_	5	punct	_	_
 
 # sent_id = chechen_witch_200_202
-# text = ''K'eljaala! Aala!'' aell.
+# text = "K'eljaala! Aala!" aell.
 # text_en = ''Get down! Tell (her)ǃ'' she said.
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	K'eljaala	aala	VERB	_	Mood=Imp|NounClass=Jclass	7	ccomp:reported	_	MSeg=k'el-j-aala|Gloss=down-J-get.IMP|SpaceAfter=No
 3	!	!	PUNCT	_	_	2	punct	_	_
 4	Aala	aala	VERB	_	Mood=Imp	2	parataxis	_	MSeg=aala|Gloss=say.IMP|SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	2	punct	_	_
+6	"	"	PUNCT	_	_	2	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
+# sent_id = chechen_witch_203
+# text = hwaa'hwa'
+# text_en = 'No.'
+1	hwaa'hwa'	haa-haa'a	INTJ	_	_	0	advmod	_	MSeg=hwaa'hwa'|Gloss=no
+
 # sent_id = chechen_witch_204_205
-# text = ''Shaa jeera jaac k'el,'' aell.
+# text = "Shaa jeera jaac k'el," aell.
 # text_en = ''I will not get down,'' she said.
-1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Shaa	shaa	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	nsubj	_	MSeg=shaa|Gloss=3SG.REFL
 3	jeera	d.aala	VERB	_	NounClass=Jclass|Tense=Fut	8	ccomp:reported	_	MSeg=j-eera|Gloss=J-get.FUT
 4	jaac	du	AUX	_	NounClass=Jclass|Polarity=Neg|Tense=Pres	3	aux	_	MSeg=j-aac|Gloss=J-be.NEG.PRS
 5	k'el	k'el	ADV	_	AdpType=Post	3	advmod	_	MSeg=k'el|Gloss=down|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
-7	'	'	PUNCT	_	_	3	punct	_	_
+7	"	"	PUNCT	_	_	3	punct	_	_
 8	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -2473,7 +2484,7 @@
 2	catigana	tiga	VERB	_	Aspect=Perf|Polarity=Neg	0	root	_	MSeg=ca-tiga-na|Gloss=NEG-obey-PRF
 
 # sent_id = chechen_witch_208_210
-# text = t'aaq jux qo'ologh jolu jowie aella aaa ''Jalie NAME!''
+# text = t'aaq jux qo'ologh jolu jowie aella aaa "Jalie NAME!"
 # text_en = Then, she said to her third daughter. ''Go, NAME!''
 1	t'aaq	t'aaqqa	ADV	_	_	6	advmod	_	MSeg=t'aaq|Gloss=then
 2	jux	jux	ADV	_	_	6	advmod	_	MSeg=jux|Gloss=then
@@ -2482,29 +2493,29 @@
 5	jowie	jow	NOUN	_	Case=All	6	iobj	_	MSeg=jow-ie|Gloss=girl-ALL
 6	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
 7	aaa	aaa	X	_	_	6	discourse	_	MSeg=[aaa]|Gloss=[aaa]
-8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	Jalie	d.aa	VERB	_	Mood=Imp|NounClass=Jclass	6	ccomp:reported	_	MSeg=j-alie|Gloss=J-go.IMP
 10	NAME	NAME	PROPN	_	Case=Abs	9	vocative	_	MSeg=NAME|Gloss=NAME|SpaceAfter=No
 11	!	!	PUNCT	_	_	9	punct	_	SpaceAfter=No
-12	'	'	PUNCT	_	_	9	punct	_	_
+12	"	"	PUNCT	_	_	9	punct	_	_
 
 # sent_id = chechen_witch_213_214
-# text = Cu jowie: ''K'eljaala! Aala!''
+# text = Cu jowie: "K'eljaala! Aala!"
 # text_en = ''Get down!' Tell (the girl)!''
 1	Cu	cu	DET	_	PronType=Dem	2	det	_	MSeg=cu|Gloss=DEM
 2	jowie	jow	NOUN	_	Case=All	5	orphan	_	MSeg=jow-ie|Gloss=girl-ALL|SpaceAfter=No
 3	:	:	PUNCT	_	_	2	punct	_	_
-4	'	'	PUNCT	_	_	5	punct	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	K'eljaala	aala	VERB	_	Mood=Imp|NounClass=Jclass	0	root	_	MSeg=k'el-j-aala|Gloss=down-J-get.IMP|SpaceAfter=No
 6	!	!	PUNCT	_	_	5	punct	_	_
 7	Aala	aala	VERB	_	Mood=Imp	5	parataxis	_	MSeg=aala|Gloss=say.IMP|SpaceAfter=No
 8	!	!	PUNCT	_	_	7	punct	_	SpaceAfter=No
-9	'	'	PUNCT	_	_	5	punct	_	_
+9	"	"	PUNCT	_	_	5	punct	_	_
 
 # sent_id = chechen_witch_215_216
-# text = ''As laettax dittina, diagh dooxor du hwa.''
+# text = "As laettax dittina, diagh dooxor du hwa."
 # text_en = ''Hitting it against the ground, I will break your body.''
-1	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 2	As	as	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	MSeg=as|Gloss=1SG.ERG
 3	laettax	laatta	NOUN	_	Case=Lat	4	obl	_	MSeg=laettax|Gloss=soil.LAT
 4	dittina	d.iatta	VERB	_	ConvType=Ant|NounClass=Dclass|VerbForm=Conv	7	advcl	_	MSeg=d-itti-na|Gloss=D-beat-CVBant|SpaceAfter=No
@@ -2514,12 +2525,12 @@
 8	du	du	AUX	_	NounClass=Dclass|Tense=Pres	7	aux	_	MSeg=d-u|Gloss=D-be.PRS
 9	hwa	hwa	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nmod	_	MSeg=hwa|Gloss=2SG.GEN|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
-11	'	'	PUNCT	_	_	7	punct	_	_
+11	"	"	PUNCT	_	_	7	punct	_	_
 
 # sent_id = chechen_witch_217_218
-# text = ''Berdax bittina, korta'a booxor bu hwa.''
+# text = "Berdax bittina, korta'a booxor bu hwa."
 # text_en = ''Hitting it against the cliff, I will break your head.''
-1	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 2	Berdax	berd	NOUN	_	Case=Lat	3	obl	_	MSeg=berd-ax|Gloss=cliff-LAT
 3	bittina	bietta	VERB	_	ConvType=Ant|NounClass=Bclass|VerbForm=Conv	7	advcl	_	MSeg=b-itti-na|Gloss=B-beat-CVBant|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -2530,18 +2541,18 @@
 8	bu	du	AUX	_	NounClass=Bclass|Tense=Pres	7	aux	_	MSeg=b-u|Gloss=B-be.PRS
 9	hwa	hwa	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	5	nmod	_	MSeg=hwa|Gloss=2SG.GEN|SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
-11	'	'	PUNCT	_	_	7	punct	_	_
+11	"	"	PUNCT	_	_	7	punct	_	_
 
 # sent_id = chechen_witch_219_221
-# text = ''k'eljaala! Aala cynga,'' aell
+# text = "K'eljaala! Aala cynga," aell
 # text_en = ''Get down! Tell her!'' she said
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	K'eljaala	aala	VERB	_	Mood=Imp|NounClass=Jclass	8	ccomp:reported	_	MSeg=k'el-j-aala|Gloss=down-J-get.IMP|SpaceAfter=No
 3	!	!	PUNCT	_	_	2	punct	_	_
 4	Aala	aala	VERB	_	Mood=Imp	2	parataxis	_	MSeg=aala|Gloss=say.IMP
 5	cynga	i	PRON	_	Case=All|Number=Sing|Person=3|PronType=Prs	4	iobj	_	MSeg=cynga|Gloss=3SG.ALL|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
-7	'	'	PUNCT	_	_	2	punct	_	_
+7	"	"	PUNCT	_	_	2	punct	_	_
 8	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF
 
 # sent_id = chechen_witch_222
@@ -2559,9 +2570,9 @@
 9	jalla	d.aala	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	0	root	_	MSeg=j-alla|Gloss=J-get.CVBant
 
 # sent_id = chechen_witch_227_228
-# text = ''Berdax bittina korta'a booxor bu.''
+# text = "Berdax bittina korta'a booxor bu."
 # text_en = ''Beating it against the cliff, she will break (your) head.''
-1	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	Berdax	berd	NOUN	_	Case=Lat	3	obl	_	MSeg=berd-ax|Gloss=cliff-LAT
 3	bittina	bietta	VERB	_	ConvType=Ant|NounClass=Bclass|VerbForm=Conv	6	advcl	_	MSeg=b-itti-na|Gloss=B-hit-CVBant
 4-5	korta'a	_	_	_	_	_	_	_	_
@@ -2570,15 +2581,15 @@
 6	booxor	d.uoxa	VERB	_	NounClass=Bclass|Tense=Fut	0	root	_	MSeg=b-ooxor|Gloss=B-break.FUT
 7	bu	du	AUX	_	NounClass=Bclass|Tense=Pres	6	aux	_	MSeg=b-u|Gloss=B-be.PRS|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
-9	'	'	PUNCT	_	_	6	punct	_	_
+9	"	"	PUNCT	_	_	6	punct	_	_
 
 # sent_id = chechen_witch_229_231
-# text = ''K'eljaala! joox hwoega,'' dwaaella.
+# text = "K'eljaala! Joox hwoega," dwaaella.
 # text_en = ''Get down! (she) says to you,'' she said (to her).
 1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	K'eljaala	aala	VERB	_	Mood=Imp|NounClass=Jclass	4	ccomp:reported	_	MSeg=k'el-j-aala|Gloss=down-J-get.IMP|SpaceAfter=No
 3	!	!	PUNCT	_	_	2	punct	_	_
-4	joox	baaxa	VERB	_	Tense=Pres	8	ccomp:reported	_	MSeg=joox|Gloss=say.PRS
+4	Joox	baaxa	VERB	_	Tense=Pres	8	ccomp:reported	_	MSeg=joox|Gloss=say.PRS
 5	hwoega	hwo	PRON	_	Case=All|Number=Sing|Person=2|PronType=Prs	4	iobj	_	MSeg=hwoega|Gloss=2SG.ALL|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
 7	'	'	PUNCT	_	_	4	punct	_	_
@@ -2809,14 +2820,14 @@
 4	qexka	qexka	VERB	_	_	0	root	_	MSeg=qexka-d-ai|Gloss=dish
 
 # sent_id = chechen_witch_270_271
-# text = ''Shiina t'aehw jaa,'' aell
+# text = "Shiina t'aehw jaa," aell
 # text_en = ''Bring it to me.'' she said
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Shiina	shie	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl	_	MSeg=shiina|Gloss=3SG.REFL.DAT
 3	t'aehw	t'aehwa	ADV	_	_	4	advmod	_	MSeg=t'aehw|Gloss=after
 4	jaa	d.aa	VERB	_	Mood=Imp|NounClass=Jclass	7	ccomp:reported	_	MSeg=j-aa|Gloss=J-bring.IMP|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	4	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF
 
 # sent_id = chechen_witch_272
@@ -2878,19 +2889,19 @@
 3	hwalbaeqqie	d.aqqa	VERB	_	Mood=Imp|NounClass=Bclass	0	root	_	MSeg=hwal-b-aeqqie|Gloss=up-B-take.IMP
 
 # sent_id = chechen_witch_284_285
-# text = ''Wohottabie,'' aell.
+# text = "Wohottabie," aell.
 # text_en = "Put (it) down," she said.
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Wohottabie	hottad.a	VERB	_	Mood=Imp|NounClass=Bclass	5	ccomp:reported	_	MSeg=wo-hota-b-ie|Gloss=down-put-B-make.IMP|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
-4	'	'	PUNCT	_	_	2	punct	_	_
+4	"	"	PUNCT	_	_	2	punct	_	_
 5	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = chechen_witch_287_288
-# text = ''Aa quz hottaboi as, naani?'' aell.
+# text = "Aa quz hottaboi as, naani?" aell.
 # text_en = "Should I put it here, mother?" she said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Aa	aaa	INTJ	_	_	4	discourse	_	MSeg=aa|Gloss=INTERJ
 3	quz	quz	ADV	_	_	4	advmod	_	MSeg=quz|Gloss=here
 4	hottaboi	d.a	VERB	_	NounClass=Bclass	10	ccomp:reported	_	MSeg=hotta-b-o-i|Gloss=put-B-make-Q
@@ -2898,7 +2909,7 @@
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	naani	naana	NOUN	_	Case=Abs	4	vocative	_	MSeg=naani|Gloss=mother|SpaceAfter=No
 8	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
-9	'	'	PUNCT	_	_	4	punct	_	_
+9	"	"	PUNCT	_	_	4	punct	_	_
 10	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -2910,14 +2921,14 @@
 3	hottabie	d.a	VERB	_	Mood=Imp|NounClass=Bclass	0	root	_	MSeg=hotta-b-ie|Gloss=stand-B-make.IMP
 
 # sent_id = chechen_witch_290_291
-# text = ''Qi liaqox hwalbaqqa,'' aella.
+# text = "Qi liaqox hwalbaqqa," aella.
 # text_en = Take it higher up! (i.e., Take it closer (to me)! she said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Qi	qi	ADV	_	_	3	advmod	_	MSeg=qi|Gloss=more
 3	liaqox	leqa	ADV	_	_	4	advmod	_	MSeg=liaqox|Gloss=higher
 4	hwalbaqqa	d.aqqa	VERB	_	Mood=Imp|NounClass=Bclass	7	ccomp:reported	_	MSeg=hwal-b-aqqa|Gloss=up-B-take.IMP|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	4	punct	_	_
 7	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -2939,12 +2950,12 @@
 5	hwalbaqqie	d.aqqa	VERB	_	Mood=Imp|NounClass=Bclass	0	root	_	MSeg=hwal-b-aqqie|Gloss=up-B-take.IMP
 
 # sent_id = chechen_witch_295_296
-# text = ''Wohottabie!'' aell.
+# text = "Wohottabie!" aell.
 # text_en = (and) put it down! She said.
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Wohottabie	d.a	VERB	_	Mood=Imp|NounClass=Bclass	5	ccomp:reported	_	MSeg=wo-hotta-b-ie|Gloss=down-stand-B-make.IMP|SpaceAfter=No
 3	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
-4	'	'	PUNCT	_	_	2	punct	_	_
+4	"	"	PUNCT	_	_	2	punct	_	_
 5	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -3194,9 +3205,9 @@
 3	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
 
 # sent_id = chechen_witch_342_343
-# text = ''Cisk, mich jaxar i jow?'' aella.
+# text = "Cisk, mich jaxar i jow?" aella.
 # text_en = ''Cat, where did the girl go?'' she said.
-1	'	'	PUNCT	_	_	5	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Cisk	cisk	NOUN	_	Case=Abs	5	vocative	_	MSeg=cisk|Gloss=cat|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	mich	micha	PRON	_	PronType=Int	5	advmod	_	MSeg=micha|Gloss=where
@@ -3204,29 +3215,29 @@
 6	i	i	DET	_	PronType=Dem	7	det	_	MSeg=i|Gloss=DEM
 7	jow	jow	NOUN	_	Case=Abs	5	nsubj	_	MSeg=jow|Gloss=girl|SpaceAfter=No
 8	?	?	PUNCT	_	_	5	punct	_	SpaceAfter=No
-9	'	'	PUNCT	_	_	5	punct	_	_
+9	"	"	PUNCT	_	_	5	punct	_	_
 10	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = chechen_witch_344_345
-# text = ''Shiina caxa'a,'' aell.
+# text = "Shiina caxa'a," aell.
 # text_en = ''I don't know,'' (the cat) said.
-1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Shiina	shie	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obl	_	MSeg=shiina|Gloss=3SG.REFL.DAT
 3	caxa'a	xa'a	VERB	_	Polarity=Neg	6	ccomp:reported	_	MSeg=ca-xa'a|Gloss=NEG-know.|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
-5	'	'	PUNCT	_	_	3	punct	_	_
+5	"	"	PUNCT	_	_	3	punct	_	_
 6	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = chechen_witch_347_348
-# text = ''Hwaaala shiiga,'' aell.
+# text = "Hwaaala shiiga," aell.
 # text_en = ''tell me!'' (the witch) said.
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Hwaaala	aala	VERB	_	Mood=Imp	6	ccomp:reported	_	MSeg=hwa-aala|Gloss=here-say.IMP
 3	shiiga	shie	X	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	iobj	_	MSeg=shiiga|Gloss=3SG.REFL.DAT|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
-5	'	'	PUNCT	_	_	2	punct	_	_
+5	"	"	PUNCT	_	_	2	punct	_	_
 6	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -3238,14 +3249,14 @@
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = chechen_witch_350_351
-# text = Cuo, ''Maaala!'' aella xilla cu jow.
+# text = Cuo, "Maaala!" aella xilla cu jow.
 # text_en = She (the girl, said:) ''Don't tell!'' that girl said.
 1	Cuo	cuo	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	7	dislocated	_	MSeg=cuo|Gloss=3SG.ERG|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	Maaala	aala	VERB	_	Mood=Imp	7	ccomp:reported	_	MSeg=ma-aala|Gloss=PROH-say.IMP|SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	4	punct	_	_
 7	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
 8	xilla	xila	AUX	_	Aspect=Perf	7	aux	_	MSeg=xilla|Gloss=be.PRF
 9	cu	cu	DET	_	PronType=Dem	10	det	_	MSeg=cu|Gloss=DEM
@@ -3253,13 +3264,13 @@
 11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = chechen_witch_352_353
-# text = ''Dwamaaallahw shiena,'' aell.
+# text = "Dwamaaallahw shiena," aell.
 # text_en = ''Don't tell on me,'' she said.
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Dwamaaallahw	aala	VERB	_	Mood=Imp	6	ccomp:reported	_	MSeg=dwa-ma-aalla-hw|Gloss=away-PROH-say-IMP
 3	shiena	shaa	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	2	obl	_	MSeg=shiena|Gloss=3SG.DAT|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	SpaceAfter=No
-5	'	'	PUNCT	_	_	2	punct	_	_
+5	"	"	PUNCT	_	_	2	punct	_	_
 6	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -3358,9 +3369,9 @@
 36	.	.	PUNCT	_	_	34	punct	_	_
 
 # sent_id = chechen_witch_373_374
-# text = ''Vezin Deela, txoishinnie juq'ie i maaxa sanna kohwculg hwottijtlahw,'' aell.
+# text = "Vezin Deela, txoishinnie juq'ie i maaxa sanna kohwculg hwottijtlahw," aell.
 # text_en = ''Dear God, let a thorn like this needle appear between us,'' she said.
-1	'	'	PUNCT	_	_	11	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 2	Vezin	d.eza	ADJ	_	_	3	amod	_	MSeg=vezin|Gloss=dear
 3	Deela	deela	NOUN	_	Case=Abs	11	vocative	_	MSeg=Deela|Gloss=God|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -3372,7 +3383,7 @@
 10	kohwculg	k'oxcal	NOUN	_	Case=Abs	11	obj	_	MSeg=kohwculg|Gloss=thorn
 11	hwottijtlahw	hottad.a	VERB	_	Mood=Imp|Voice=Caus	14	ccomp:reported	_	MSeg=hwotti-jt-lahw|Gloss=stand-CAUS-IMP|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	SpaceAfter=No
-13	'	'	PUNCT	_	_	11	punct	_	_
+13	"	"	PUNCT	_	_	11	punct	_	_
 14	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -3398,9 +3409,9 @@
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = chechen_witch_384_385
-# text = ''Vezin Deela, txoishinnie juq'ie i jaxk sanna berd hwottitlahw,'' aell berd.
+# text = "Vezin Deela, txoishinnie juq'ie i jaxk sanna berd hwottitlahw," aell berd.
 # text_en = ''Dear God, let a cliff like this comb appear between us,'' she said.
-1	'	'	PUNCT	_	_	11	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 2	Vezin	vezin	ADJ	_	_	3	amod	_	MSeg=vezin|Gloss=dear
 3	Deela	Deela	NOUN	_	Case=Abs	11	vocative	_	MSeg=Deela,|Gloss=God|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -3412,7 +3423,7 @@
 10	berd	berd	NOUN	_	Case=Abs	11	obj	_	MSeg=berd|Gloss=cliff
 11	hwottitlahw	hotta	VERB	_	Mood=Imp|Voice=Caus	14	ccomp:reported	_	MSeg=hwotti-ijt-lahw|Gloss=stand-CAUS-IMP|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	SpaceAfter=No
-13	'	'	PUNCT	_	_	11	punct	_	_
+13	"	"	PUNCT	_	_	11	punct	_	_
 14	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF
 15	berd	berd	NOUN	_	Case=Abs	14	dislocated	_	MSeg=berd|Gloss=cliff|SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
@@ -3472,9 +3483,9 @@
 6	xilla	xila	AUX	_	Aspect=Perf	5	aux	_	MSeg=xilla|Gloss=be.PRF
 
 # sent_id = chechen_witch_394_395
-# text = ''Vezin Deela, txoishinna juq'ie jar nolx sanna xotta hottitalahw,'' aell.
+# text = "Vezin Deela, txoishinna juq'ie jar nolx sanna xotta hottitalahw," aell.
 # text_en = ''Dear God, let mud like this butter appear between us,'' she said.
-1	'	'	PUNCT	_	_	11	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 2	Vezin	vezin	ADJ	_	_	3	amod	_	MSeg=vezin|Gloss=dear
 3	Deela	deela	NOUN	_	Case=Abs	11	vocative	_	MSeg=Deela|Gloss=God|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -3486,7 +3497,7 @@
 10	xotta	xotta	NOUN	_	Case=Abs	11	nsubj	_	MSeg=xotta|Gloss=mud
 11	hottitalahw	hotta	VERB	_	Mood=Imp	14	ccomp:reported	_	MSeg=hottita-lahw|Gloss=stand-IMP|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	SpaceAfter=No
-13	'	'	PUNCT	_	_	11	punct	_	_
+13	"	"	PUNCT	_	_	11	punct	_	_
 14	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -3550,19 +3561,19 @@
 3	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = chechen_witch_411_412
-# text = ''Boxka bajta shiina!'' aell.
+# text = "Boxka bajta shiina!" aell.
 # text_en = ''Send me a rope!'' she said.
-1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Boxka	buxka	NOUN	_	Case=Abs	3	obj	_	MSeg=buxka|Gloss=rope
 3	bajta	d.aa	VERB	_	Mood=Imp|NounClass=Bclass|Voice=Caus	7	ccomp:reported	_	MSeg=b-a-jt-a|Gloss=B-bring-CAUS-IMP
 4	shiina	shie	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obl	_	MSeg=shiina|Gloss=3SG.REFL.DAT|SpaceAfter=No
 5	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	3	punct	_	_
+6	"	"	PUNCT	_	_	3	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = chechen_witch_413_414
-# text = T'aaq jux aaa quo aella: ''Boxka bajta shiina!''
+# text = T'aaq jux aaa quo aella: "Boxka bajta shiina!"
 # text_en = Then, she said: ''Send me a rope!''
 1	T'aaq	t'aaqqa	ADV	_	_	5	advmod	_	MSeg=t'aaq|Gloss=then
 2	jux	jux	ADV	_	_	5	advmod	_	MSeg=jux|Gloss=then
@@ -3570,28 +3581,28 @@
 4	quo	iza	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	MSeg=quo|Gloss=3SG.DEM.ERG
 5	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 6	:	:	PUNCT	_	_	5	punct	_	_
-7	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 8	Boxka	buxka	NOUN	_	Case=Abs	9	obj	_	MSeg=buxka|Gloss=rope
 9	bajta	d.aa	VERB	_	Mood=Imp|NounClass=Bclass|Voice=Caus	5	ccomp:reported	_	MSeg=b-a-jt-a|Gloss=B-bring-CAUS-IMP
 10	shiina	shie	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obl	_	MSeg=shiina|Gloss=3SG.REFL.DAT|SpaceAfter=No
 11	!	!	PUNCT	_	_	9	punct	_	SpaceAfter=No
-12	'	'	PUNCT	_	_	9	punct	_	_
+12	"	"	PUNCT	_	_	9	punct	_	_
 
 # sent_id = chechen_witch_415_416
-# text = ''Aasa jajta shiina!'' aell
+# text = "Aasa jajta shiina!" aell
 # text_en = ''Send me a belt!'' she said
-1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Aasa	aasa	NOUN	_	Case=Abs	3	obj	_	MSeg=aasa|Gloss=belt
 3	jajta	d.aa	VERB	_	Mood=Imp|NounClass=Jclass|Voice=Caus	7	ccomp:reported	_	MSeg=j-a-jt-a|Gloss=J-bring-CAUS-IMP
 4	shiina	shie	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obl	_	MSeg=shiina|Gloss=3SG.REFL.DAT|SpaceAfter=No
 5	!	!	PUNCT	_	_	3	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	3	punct	_	_
+6	"	"	PUNCT	_	_	3	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF
 
 # sent_id = chechen_witch_417_419
-# text = "T'aa hwo sa veshiega jooghurg jaliehw, shaa hwo t'ejoqqurg ju,'' aella jishas, veshi jishas.
+# text = "T'aa hwo sa veshiega jooghurg jaliehw, shaa hwo t'ejoqqurg ju," aella jishas, veshi jishas.
 # text_en = "If you would marry my brother, I will lift you up,'' the sister said.
-1	'	'	PUNCT	_	_	11	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 2	T'aa	t'aaqqa	ADV	_	_	6	advmod	_	MSeg=t'aa|Gloss=then
 3	hwo	hwo	PRON	_	Case=Abs|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	MSeg=hwo|Gloss=2SG.ABS
 4	sa	so	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod	_	MSeg=san|Gloss=1SG.GEN
@@ -3604,7 +3615,7 @@
 11	t'ejoqqurg	d.aqqa	VERB	_	NounClass=Jclass|Tense=Fut	15	ccomp:reported	_	MSeg=t'e-j-oqqurg|Gloss=up-J-take.FUT
 12	ju	du	AUX	_	NounClass=Jclass|Tense=Pres	11	aux	_	MSeg=j-u|Gloss=J-be.PRS|SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	SpaceAfter=No
-14	'	'	PUNCT	_	_	11	punct	_	_
+14	"	"	PUNCT	_	_	11	punct	_	_
 15	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF
 16	jishas	jisha	NOUN	_	Case=Erg	15	nsubj	_	MSeg=jisha-s|Gloss=sister-ERG|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
@@ -3651,13 +3662,13 @@
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = chechen_witch_426_427
-# text = ''Boq'ula t'ejaqqa,'' aell.
+# text = "Boq'ula t'ejaqqa," aell.
 # text_en = ''Lift me up!'' she said.
-1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Boq'ula	boq'ula	ADV	_	_	3	advmod	_	MSeg=boq'ula|Gloss=truly
 3	t'ejaqqa	d.aqqa	VERB	_	Mood=Imp|NounClass=Jclass	6	ccomp:reported	_	MSeg=t'e-j-aqqa|Gloss=on-J-take.IMP|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	SpaceAfter=No
-5	'	'	PUNCT	_	_	3	punct	_	_
+5	"	"	PUNCT	_	_	3	punct	_	_
 6	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -3783,15 +3794,15 @@
 8	jaeqqana	d.aqqa	VERB	_	ConvType=Ant|NounClass=Jclass|VerbForm=Conv	3	conj	_	MSeg=j-aeqqa-na|Gloss=J-take-CVBant
 
 # sent_id = chechen_witch_449_450
-# text = ''Naana jolchu dwajiiga shie,'' aell.
+# text = "Naana jolchu dwajiiga shie," aell.
 # text_en = ''Take me to my mother,'' she said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Naana	naana	NOUN	_	Case=Abs	4	obl	_	MSeg=naana|Gloss=mother
 3	jolchu	du	AUX	_	NounClass=Jclass|VerbForm=Part	2	aux	_	MSeg=j-olchu|Gloss=J-be.PTCP
 4	dwajiiga	ieqquo	VERB	_	Mood=Imp|NounClass=Jclass	8	ccomp:reported	_	MSeg=dwa-j-iiga|Gloss=away-J-drive.IMP
 5	shie	shie	PRON	_	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	MSeg=shie|Gloss=3SG.REFL|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-7	'	'	PUNCT	_	_	4	punct	_	_
+7	"	"	PUNCT	_	_	4	punct	_	_
 8	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -3847,7 +3858,7 @@
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = chechen_witch_458_459
-# text = T'aaq aaa cu k'ant aella: ''Naew hwajaella!''
+# text = T'aaq aaa cu k'ant aella: "Naew hwajaella!"
 # text_en = then the young man said. ''Open the door!''
 1	T'aaq	t'aaqqa	ADV	_	_	5	advmod	_	MSeg=t'aaq|Gloss=then
 2	aaa	aaa	INTJ	_	_	5	discourse	_	MSeg=[aaa]|Gloss=[aaa]
@@ -3855,11 +3866,11 @@
 4	k'ant	k'ant	NOUN	_	Case=Abs	5	nsubj	_	MSeg=k'ant|Gloss=boy
 5	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 6	:	:	PUNCT	_	_	5	punct	_	_
-7	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	Naew	niaw	NOUN	_	Case=Abs	9	obj	_	MSeg=naew|Gloss=door
 9	hwajaella	aala	VERB	_	Mood=Imp|NounClass=Jclass	5	ccomp:reported	_	MSeg=hwa-j-aella|Gloss=here-J-open.IMP|SpaceAfter=No
 10	!	!	PUNCT	_	_	9	punct	_	SpaceAfter=No
-11	'	'	PUNCT	_	_	9	punct	_	_
+11	"	"	PUNCT	_	_	9	punct	_	_
 
 # sent_id = chechen_witch_460
 # text = vai naew muuxa joellu shie?
@@ -3914,23 +3925,23 @@
 4	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = chechen_witch_465_466
-# text = ''Hwadiica!'' aell.
+# text = "Hwadiica!" aell.
 # text_en = ''Tell me!'' she said.
-1	'	'	PUNCT	_	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Hwadiica	d.iica	VERB	_	Mood=Imp|NounClass=Dclass	5	ccomp:reported	_	MSeg=hwa-d-iica|Gloss=here-D-tell.IMP|SpaceAfter=No
 3	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
-4	'	'	PUNCT	_	_	2	punct	_	_
+4	"	"	PUNCT	_	_	2	punct	_	_
 5	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = chechen_witch_467_468
-# text = T'aaq oc jowa: ''Maama, so juq hwa jow,'' aell.
+# text = T'aaq oc jowa: "Maama, so juq hwa jow," aell.
 # text_en = Then, the girl said: ''Mom, I am your daughter,'' she said.
 1	T'aaq	t'aaqqa	ADV	_	_	15	advmod	_	MSeg=t'aaq|Gloss=then
 2	oc	cu	DET	_	PronType=Dem	3	det	_	MSeg=oc|Gloss=DEM
 3	jowa	jow	NOUN	_	Case=Erg	15	dislocated	_	MSeg=jow-a|Gloss=girl-ERG|SpaceAfter=No
 4	:	:	PUNCT	_	_	3	punct	_	_
-5	'	'	PUNCT	_	_	12	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 6	Maama	maama	NOUN	_	Case=Abs	12	vocative	_	MSeg=maama|Gloss=mother|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	so	so	PRON	_	Case=Abs|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	MSeg=so|Gloss=1SG.ABS
@@ -3940,7 +3951,7 @@
 11	hwa	hwa	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	12	nmod	_	MSeg=hwa|Gloss=2SG.GEN
 12	jow	jow	NOUN	_	Case=Abs	15	ccomp:reported	_	MSeg=jow|Gloss=girl|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	SpaceAfter=No
-14	'	'	PUNCT	_	_	12	punct	_	_
+14	"	"	PUNCT	_	_	12	punct	_	_
 15	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 16	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -3951,37 +3962,36 @@
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = chechen_witch_470_471
-# text = ''Sa jow jajana,'' aell.
+# text = "Sa jow jajana," aell.
 # text_en = ''My daughter is lost.'' she said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Sa	so	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nmod	_	MSeg=san|Gloss=1SG.GEN
 3	jow	jow	NOUN	_	Case=Abs	4	nsubj	_	MSeg=jow|Gloss=girl
 4	jajana	d.aj'a	VERB	_	Aspect=Perf|NounClass=Jclass	7	ccomp:reported	_	MSeg=j-aj-na|Gloss=J-get.lost-PRF|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	4	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = chechen_witch_472_474
-# text = Aaa "Hwo sa jow jaliehw, hwaj chaab, k'aazhar hwachujajta!'' aell.
+# text = Aaa "Hwo sa jow jaliehw, hwaj chaab, k'aazhar hwachujajta!" aell.
 # text_en = "If you are my daughter, put your braid inside!'' she said.
-1	aaa	aaa	INTJ	_	_	16	discourse	_	MSeg=[aaa]|Gloss=[aaa]
-2	'	'	PUNCT	_	_	13	punct	_	SpaceAfter=No
-3	hwo	hwo	PRON	_	Case=Abs|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	MSeg=hwo|Gloss=2SG.ABS
+1	aaa	aaa	INTJ	_	_	15	discourse	_	MSeg=[aaa]|Gloss=[aaa]
+2	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+3	Hwo	hwo	PRON	_	Case=Abs|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	MSeg=hwo|Gloss=2SG.ABS
 4	sa	so	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod	_	MSeg=sa|Gloss=1SG.GEN
-5	jow	jow	NOUN	_	Case=Abs	13	advcl	_	MSeg=jow|Gloss=girl
+5	jow	jow	NOUN	_	Case=Abs	12	advcl	_	MSeg=jow|Gloss=girl
 6	jaliehw	du	AUX	_	NounClass=Jclass|VerbForm=Conv	5	cop	_	MSeg=j-aliehw|Gloss=J-be.CVB|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	_	_	_	_	_	_	_	_	_
-9	Hwaj	hwo	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	12	nmod	_	MSeg=hwaj|Gloss=2SG.GEN
-10	chaab	ch'aaba	X	_	_	12	reparandum	_	MSeg=chaab|Gloss=chaab...|SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
-12	k'aazhar	k'aazhar	NOUN	_	Case=Abs	13	obj	_	MSeg=k'aazhar|Gloss=braid
-13	hwachujajta	d.aa	VERB	_	Mood=Imp|NounClass=Jclass|Voice=Caus	16	ccomp:reported	_	MSeg=hwa-chu-j-a-jt-a|Gloss=here-inside-J-bring-CAUS-IMP|SpaceAfter=No
-14	!	!	PUNCT	_	_	13	punct	_	SpaceAfter=No
-15	'	'	PUNCT	_	_	13	punct	_	_
-16	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
-17	.	.	PUNCT	_	_	16	punct	_	_
+8	hwaj	hwo	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	11	nmod	_	MSeg=hwaj|Gloss=2SG.GEN
+9	chaab	ch'aaba	X	_	_	11	reparandum	_	MSeg=chaab|Gloss=chaab...|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	k'aazhar	k'aazhar	NOUN	_	Case=Abs	12	obj	_	MSeg=k'aazhar|Gloss=braid
+12	hwachujajta	d.aa	VERB	_	Mood=Imp|NounClass=Jclass|Voice=Caus	15	ccomp:reported	_	MSeg=hwa-chu-j-a-jt-a|Gloss=here-inside-J-bring-CAUS-IMP|SpaceAfter=No
+13	!	!	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	'	'	PUNCT	_	_	12	punct	_	_
+15	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = chechen_witch_475
 # text = k'aazhar dwachujaxitina.
@@ -3991,15 +4001,15 @@
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = chechen_witch_476_477
-# text = ''Daliehw hwaj c'aazap'elg chubajtal!'' aella.
+# text = "Daliehw hwaj c'aazap'elg chubajtal!" aella.
 # text_en = ''Well, put your little finger inside!'' she said.
-1	'	'	PUNCT	_	_	5	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Daliehw	daliehw	INTJ	_	_	5	discourse	_	MSeg=daliehw|Gloss=well
 3	hwaj	hwo	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	nmod	_	MSeg=hwaj|Gloss=2SG.GEN
 4	c'aazap'elg	c'aazap'elg	NOUN	_	Case=Abs	5	obj	_	MSeg=c'aazap'elg|Gloss=little.finger
 5	chubajtal	d.aa	VERB	_	Mood=Imp|NounClass=Bclass|Voice=Caus	8	ccomp:reported	_	MSeg=chu-b-a-jt-al|Gloss=inside-B-bring-CAUS-IMP|SpaceAfter=No
 6	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
-7	'	'	PUNCT	_	_	5	punct	_	_
+7	"	"	PUNCT	_	_	5	punct	_	_
 8	aella	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aella|Gloss=say.PRF|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -4093,9 +4103,9 @@
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = chechen_witch_494_495
-# text = ''Chwa jow jee… jeerii quz?'' aell.
+# text = "Chwa jow jee… jeerii quz?" aell.
 # text_en = ''Did a girl come here?'' she said.
-1	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	Chwa	chwa'	NUM	_	_	3	nummod	_	MSeg=chwa|Gloss=one
 3	jow	jow	NOUN	_	Case=Abs	6	nsubj	_	MSeg=jow|Gloss=girl
 4	jee	d.aa	NOUN	_	Case=Abs	6	reparandum	_	MSeg=jee...|Gloss=nc|SpaceAfter=No
@@ -4103,7 +4113,7 @@
 6	jeerii	d.aa	VERB	_	Aspect=Perf|NounClass=Jclass	10	ccomp:reported	_	MSeg=j-eerii|Gloss=J-come.PRF.Q
 7	quz	quza	ADV	_	_	6	advmod	_	MSeg=quz|Gloss=here|SpaceAfter=No
 8	?	?	PUNCT	_	_	6	punct	_	SpaceAfter=No
-9	'	'	PUNCT	_	_	6	punct	_	_
+9	"	"	PUNCT	_	_	6	punct	_	_
 10	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -4119,14 +4129,14 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = chechen_witch_497_498
-# text = ''Jow shiina caxaajella,'' aell.
+# text = "Jow shiina caxaajella," aell.
 # text_en = ''I didn't notice the girl,'' she said.
-1	'	'	PUNCT	_	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Jow	jow	NOUN	_	Case=Abs	4	dislocated	_	MSeg=jow|Gloss=girl
 3	shiina	shie	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	MSeg=shiina|Gloss=3SG.REFL.DAT
 4	caxaajella	d.a	VERB	_	Aspect=Perf|NounClass=Jclass|Polarity=Neg	7	ccomp:reported	_	MSeg=ca-xaa-j-ella|Gloss=NEG-notice-J-make.PRF|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	'	'	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	4	punct	_	_
 7	aell	aala	VERB	_	Aspect=Perf	0	root	_	MSeg=aell|Gloss=say.PRF|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -4221,20 +4231,20 @@
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = chechen_witch_512_513
-# text = Cuo oolush xilla: ''Aaa i tatnash michar ooxu?''
+# text = Cuo oolush xilla: "Aaa i tatnash michar ooxu?"
 # text_en = She used to say: ''Where are the noises coming from?''
 1	Cuo	cuo	PRON	_	Case=Erg|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	MSeg=cuo|Gloss=3SG.ERG
 2	oolush	aala	VERB	_	ConvType=Sim|VerbForm=Conv	0	root	_	MSeg=oolu-sh|Gloss=say-CVBsim
 3	xilla	xila	AUX	_	Aspect=Perf	2	aux	_	MSeg=xilla|Gloss=be.PRF|SpaceAfter=No
 4	:	:	PUNCT	_	_	2	punct	_	_
-5	'	'	PUNCT	_	_	10	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 6	Aaa	aaa	INTJ	_	_	10	discourse	_	MSeg=[aaa]|Gloss=[aaa]
 7	i	i	DET	_	PronType=Dem	8	det	_	MSeg=i|Gloss=DEM
 8	tatnash	tata	NOUN	_	Case=Abs|Number=Plur	10	nsubj	_	MSeg=tatnash|Gloss=noise.PL
 9	michar	michara	PRON	_	PronType=Int	10	advmod	_	MSeg=michara|Gloss=where
 10	ooxu	exa	VERB	_	Tense=Pres	2	ccomp:reported	_	MSeg=oexu|Gloss=come.PRS|SpaceAfter=No
 11	?	?	PUNCT	_	_	10	punct	_	SpaceAfter=No
-12	'	'	PUNCT	_	_	10	punct	_	_
+12	"	"	PUNCT	_	_	10	punct	_	_
 
 # sent_id = chechen_witch_514
 # text = seenax du tatnash?
@@ -4262,7 +4272,7 @@
 2	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = chechen_witch_517_518
-# text = ''As daj'ur du shu,'' oolush xilla jeeshapo.
+# text = "As daj'ur du shu," oolush xilla jeeshapo.
 # text_en = ''I will kill you,'' the witch used to say.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	As	as	PRON	_	Case=Erg|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	MSeg=as|Gloss=1SG.ERG
