@@ -1,5 +1,4 @@
 # newdoc id = fiction_bear
-
 # sent_id = chechen_bear_001
 # text = t'aaq hwynax vaxan xilla zhima stag
 # text_en = Well, a young man went to the forest.
@@ -375,7 +374,6 @@
 2	baax	baax	PART	_	_	1	mark	_	MSeg=baax|Gloss=QUOT
 
 # newdoc id = fiction_wolf
-
 # sent_id = chechen_wolf_001
 # text = chwa borz xilla jurt juq'ie jiena
 # text_en = A wolf came into a village.
@@ -1387,7 +1385,6 @@
 4	chaqdelara	daala	VERB	_	Aspect=Perf|NounClass=Dclass	0	root	_	MSeg=chaq-d-ela-ra|Gloss=through-D-get-PRF
 
 # newdoc id = fiction_witch
-
 # sent_id = chechen_witch_006
 # text = cwa' naana jolsh xilla
 # text_en = One had a mother.
@@ -4286,7 +4283,6 @@
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # newdoc id = bival
-
 # sent_id = chechen_data_001
 # text = Islaman korta lozu
 # text_en = Islam has a headache.
