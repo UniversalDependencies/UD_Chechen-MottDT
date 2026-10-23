@@ -6,7 +6,7 @@ The treebank contains 3160 tokens.
 
 # Introduction
 
-The Chechen-MottDT treebank contains three oral folktales, which have been retold, translated, and glossed by native speakers. The respective sentence IDs start with 'spoken'.
+The Chechen-MottDT treebank contains three oral folktales; the respective sentence IDs start with 'spoken'.
 In addition, the treebank contains examples from the Chechen contribution to BivalTyp (the Typological Database of Bivalent Verbs and Their Encoding Frames). 
 The respective sentence IDs start with 'grammar'.
 The texts included are as follows.
