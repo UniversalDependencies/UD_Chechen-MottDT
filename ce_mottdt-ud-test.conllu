@@ -268,7 +268,7 @@
 2	hwra	hara	PRON	_	PronType=Dem	6	nsubj	_	MSeg=hara|Gloss=DEM
 3-4	juq	_	_	_	_	_	_	_	_
 3	ju	du	AUX	_	NounClass=Jclass|Tense=Pres	6	cop	_	MSeg=j-u|Gloss=J-be.PRS
-4	q	q	PART	_	_	6	mark	_	MSeg=q|Gloss=CL
+4	q	q	PART	_	_	6	advmod:emph	_	MSeg=q|Gloss=CL
 5	dik	dika	ADJ	_	_	6	amod	_	MSeg=dika|Gloss=good
 6	hum	huma	NOUN	_	Case=Abs	0	root	_	MSeg=huma|Gloss=thing
 7	t'e	t'e	ADV	_	_	8	advmod	_	MSeg=t'e|Gloss=on
