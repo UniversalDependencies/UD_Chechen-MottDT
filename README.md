@@ -1,17 +1,17 @@
 # Summary
 
-Chechen-MottDT is a Universal Dependencies treebank of the Chechen language (Nakh-Daghestanian). 
+Chechen-MottDT is a Universal Dependencies treebank of the Chechen language (Nakh-Daghestanian).
 The annotation for part of speech tags and features was coverted from interlinear glosses, while dependencies were annotated manually.
 The treebank contains 3160 tokens.
 
 # Introduction
 
 The Chechen-MottDT treebank contains three oral folktales; the respective sentence IDs start with 'spoken'.
-In addition, the treebank contains examples from the Chechen contribution to BivalTyp (the Typological Database of Bivalent Verbs and Their Encoding Frames). 
+In addition, the treebank contains examples from the Chechen contribution to BivalTyp (the Typological Database of Bivalent Verbs and Their Encoding Frames).
 The respective sentence IDs start with 'grammar'.
 The texts included are as follows.
 
-* spoken_bear: an oral folktale, 235 tokens 
+* spoken_bear: an oral folktale, 235 tokens
 * spoken_wolf: an oral folktale, 668 tokens
 * spoken_witch: an oral folktale, 1832 tokens
 * grammar_examples: examples from the Chechen contribution to BivalTyp, 425 tokens
@@ -24,9 +24,9 @@ The texts included are as follows.
 
 ## References
 
-* Molochieva, Zarina. 2011. Tense, aspect, and mood in Chechen. The University of Leipzig dissertation. 
-* Molochieva, Zarina. 2020. Chechen. 
-  In Say, Sergey (ed.) _BivalTyp: Typological database of bivalent verbs and their encoding frames._ 
+* Molochieva, Zarina. 2011. Tense, aspect, and mood in Chechen. The University of Leipzig dissertation.
+* Molochieva, Zarina. 2020. Chechen.
+  In Say, Sergey (ed.) _BivalTyp: Typological database of bivalent verbs and their encoding frames._
   (Available online at https://bivaltyp.info/languages/descriptions/Chechen.html, Accessed on 23 October 2026.)
 
 # Changelog
