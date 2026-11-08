@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>489</sentences><tokens>3048</tokens><words>3160</words><fused>78</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>489</sentences><tokens>3048</tokens><words>3160</words><fused>78</fused></test>
+  </size>
+  <lemmas unique="534" /><!-- ,, ", ., du, aala, Islam, t'aaqqa, daxa, xila, da, shie, daala, jow, a, i -->
+  <forms unique="1092" /><!-- ,, ", ., t'aaq, xilla, Islamas, aell, aella, shie, a, jow, i, !, cuo, Islam -->
+  <fusions unique="65" /><!-- juxa'a, korta'a, aara'ajaella, hwa'ajaestana, juq, k'a'a, majaac, saara'a, t'e'ajoexna, Aella'a, Maaala, Oarca'a, Shainam, aara'ajaalie, aara'ajalla -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">46</tag><!-- doqqa, dika, zhima, pletjenyj, deexa, massuo, tera, vezin, xaza, baq'uo -->
+    <tag name="ADP">28</tag><!-- t'e, t'era, chu, t'aehwa, chura, buxa, buxahw, doeħa, juq', na -->
+    <tag name="ADV">320</tag><!-- t'aaqqa, juxa, jux, novq'a, chu, t'aehwa, xeenahw, xaan, juqq'ie, aara -->
+    <tag name="AUX">174</tag><!-- du, xila -->
+    <tag name="CCONJ">63</tag><!-- a, 'a, a', q -->
+    <tag name="DET">66</tag><!-- i, cu, hara, micha, jar, chwannie, cwa'a, jara, masso, massuo -->
+    <tag name="INTJ">38</tag><!-- aaa, haa-haa'a, vai, vaa, daliehw, deelahw, va, deera, dielahw, e -->
+    <tag name="NOUN">492</tag><!-- jow, naana, gaali, borz, jeeshap, oarca, stag, huma, ch'aaba, gour -->
+    <tag name="NUM">32</tag><!-- cwa, shi', chwa', cwa', qo, qo', chwa, cwana, itt, qo'algha -->
+    <tag name="PART">18</tag><!-- ma, q, baax, 'a, boox -->
+    <tag name="PRON">316</tag><!-- shie, shaa, cuo, iza, hwo, so, ysh, as, jara, cu -->
+    <tag name="PROPN">148</tag><!-- Islam, Nadir, Madina, NAME -->
+    <tag name="PUNCT">596</tag><!-- ,, ", ., !, …, :, ? -->
+    <tag name="SCONJ">1</tag><!-- cholt'aehwa -->
+    <tag name="VERB">796</tag><!-- aala, daxa, da, daala, daa, daqqa, dada, dieza, dilla, die -->
+    <tag name="X">26</tag><!-- aaa, a, ca, ch'aaba, chwana, gi, jeeshap, mezhenash, qoqa, t'aehwa -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="53">
+    <feat name="AdpType" value="Post" upos="ADP">27</feat><!-- t'e, t'era, chu, chura, t'aehw, buxa, buxahw, doeħa, juq'ie, t'aehwa -->
+    <feat name="AdpType" value="Prep" upos="ADP">1</feat><!-- na -->
+    <feat name="Aspect" value="Hab" upos="VERB">1</feat><!-- xylush -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">304</feat><!-- xilla, aella, aell, dina, toexna, caxilla, oeghazvaxna, ecca'a, jiina, wotessina -->
+    <feat name="Case" value="Abl" upos="NOUN,PRON">2</feat><!-- ghaalara, hwaigara -->
+    <feat name="Case" value="Abs" upos="DET,NOUN,PRON,PROPN,VERB">503</feat><!-- jow, Islam, gaali, borz, jara, hwo, naana, Nadir, jar, so -->
+    <feat name="Case" value="Acc" upos="ADJ,AUX,NOUN,VERB">8</feat><!-- voqqachu, deegha, dodachu, dooghuchu, jolchu, jooghachu -->
+    <feat name="Case" value="All" upos="NOUN,PRON,PROPN,VERB">39</feat><!-- Nadiraga, stagie, Islamaga, cwogalie, cynga, hwoega, jowie, neenie, shiega, caara -->
+    <feat name="Case" value="Cmp" upos="PROPN">1</feat><!-- Nadiral -->
+    <feat name="Case" value="Dat" upos="AUX,NOUN,NUM,PRON,PROPN,VERB">103</feat><!-- Islamana, shiina, shiena, Nadirana, cun, Madinana, hwuuna, cunna, caarna, chwan -->
+    <feat name="Case" value="Erg" upos="DET,NOUN,NUM,PRON,PROPN,VERB">123</feat><!-- Islamas, cuo, as, aas, jeeshapo, jowa, ahw, caara, daas, jishas -->
+    <feat name="Case" value="Gen" upos="DET,NOUN,PRON,PROPN">59</feat><!-- sa, shie, Islaman, hwa, shien, vai, eesi, gourie, san, bezhni -->
+    <feat name="Case" value="Ins" upos="NOUN,PROPN">5</feat><!-- Nadiraca, kochaca, shurenca, zwokarca -->
+    <feat name="Case" value="Lat" upos="NOUN,PRON,PROPN">31</feat><!-- Nadirax, laettax, Berdax, cunax, Madinax, c'ierax, c’aax, dechkax, dechkex, diaghax -->
+    <feat name="Case" value="Loc" upos="NOUN,NUM">8</feat><!-- naewarg, dynenchu, ghienahw, mettiahw, mettie, qo'anahw, tükanchu -->
+    <feat name="Clusivity" value="In" upos="PRON">3</feat><!-- vai, vaj -->
+    <feat name="ConvType" value="After" upos="VERB">1</feat><!-- dwajaxanchol -->
+    <feat name="ConvType" value="Ant" upos="VERB">104</feat><!-- jadda, jeena, aell, jedda, jina, bittina, dedda, ecna, jalla, jiina -->
+    <feat name="ConvType" value="As" upos="VERB">3</feat><!-- joelnaehw, qaechniehw, xaejniahw -->
+    <feat name="ConvType" value="Before" upos="VERB">1</feat><!-- jalljahw -->
+    <feat name="ConvType" value="Imm" upos="VERB">3</feat><!-- ghoi, jaalie, jollii -->
+    <feat name="ConvType" value="Sim" upos="AUX,VERB">166</feat><!-- jolsh, oolush, boqqush, joodash, jooghush, dolash, jollush, laettash, voodash, wesh -->
+    <feat name="ConvType" value="Temp" upos="AUX,VERB">26</feat><!-- hwalhwaezhcha, jolchu, dich, dicha, aelch, aellcha, baxch, dajchi, dolchu, dwabyjshacha -->
+    <feat name="ConvType" value="Until" upos="VERB">3</feat><!-- qettalac, qettalc, xattalc -->
+    <feat name="Evident" value="Fh" upos="VERB">5</feat><!-- cagira, dwaeqiira, dwaeqqijra, hwaqoessira, jaxar -->
+    <feat name="Log" value="Yes" upos="PRON">30</feat><!-- shaa, shie, shiena, sha, shiega, shiina -->
+    <feat name="Mood" value="Imp" upos="VERB">66</feat><!-- aala, K'eljaala, joola, bajta, jalie, Wohottabie, dwadoula, jaa, jajta, qexkadai -->
+    <feat name="NounClass" value="Bclass" upos="AUX,VERB">74</feat><!-- boqqush, bajta, cabieza, baacar, boelxash, Wohottabie, bittina, boelxush, booxor, bu -->
+    <feat name="NounClass" value="Dclass" upos="ADJ,AUX,VERB">133</feat><!-- du, dara, dina, dolash, irdiesh, daac, dedda, deexash, dich, dicha -->
+    <feat name="NounClass" value="Jclass" upos="ADJ,AUX,VERB">313</feat><!-- ju, jaac, jolchu, k'eljaala, jolsh, jaella, jalla, jie, jiina, joodash -->
+    <feat name="NounClass" value="Vclass" upos="ADJ,AUX,VERB">71</feat><!-- vu, voqqachu, oeghazvaxna, voodash, voqqa, vieza, aaravaella, cavieza, ciacvaella, dwavie -->
+    <feat name="Number" value="Plur" upos="ADJ,NOUN,PRON">73</feat><!-- ysh, vai, ch'aabarsh, caara, dooghanash, shai, tatnash, bweerij, c'aazamish, caarna -->
+    <feat name="Number" value="Sing" upos="DET,PRON">253</feat><!-- shie, cuo, shaa, jara, shiina, as, hwo, cun, jar, so -->
+    <feat name="Person" value="1" upos="DET,PRON">44</feat><!-- as, so, sa, vai, aas, san, sai, txoishinnie, Vieshimmuo, suuna -->
+    <feat name="Person" value="2" upos="PRON">34</feat><!-- hwo, hwuuna, hwa, ahw, hwaj, hwoega, shai, hwaigara, hwanchox, hwooga -->
+    <feat name="Person" value="3" upos="DET,PRON">209</feat><!-- shie, cuo, shaa, jara, shiina, cun, jar, ez, shiena, ysh -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">55</feat><!-- jaac, cabieza, caxilla, baacar, cavieza, caxa'a, caxill, daac, jaaxacalush, jaxacalush -->
+    <feat name="Poss" value="Yes" upos="PRON">30</feat><!-- shie, shien, shai, Shii, hwanchox, sai -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">102</feat><!-- i, cu, jara, jar, oc, hara, e, quo, cun, har -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">4</feat><!-- cwa'a, chwa'a -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">13</feat><!-- hu, micha, muuxa, mal, mich, michar, seenax -->
+    <feat name="PronType" value="Neg" upos="DET">1</feat><!-- chwannie -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">263</feat><!-- shie, cuo, shaa, shiina, as, hwo, cun, so, ez, sa -->
+    <feat name="PronType" value="Tot" upos="DET">2</feat><!-- masso, massuo -->
+    <feat name="Reflex" value="Yes" upos="PRON">101</feat><!-- shie, shaa, shiina, shiena, shien, shai, sai, shiega, Shii, hwaigara -->
+    <feat name="Tense" value="Fut" upos="VERB">26</feat><!-- lur, booxor, jollurg, jooghurg, joostura, daj'ur, dooxor, dwajyira, ghuura, gyrg -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">17</feat><!-- dara, baacar, bar, hwaqoessira, jar, jara, majoelniera, vara, xietara -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">128</feat><!-- ju, du, jaac, vu, cabieza, jieza, ladughu, vieza, bu, cavieza -->
+    <feat name="VerbForm" value="Conv" upos="AUX,VERB">312</feat><!-- aell, jolsh, oolush, boqqush, joodash, jooghush, dolash, jadda, jeena, jollush -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">38</feat><!-- jie, k'eljaala, t'aehwqie, ba'a, baa, c'ajaa, c'ajaxa, chuvax, da, daaxa -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">17</feat><!-- jolu, jolchu, joocu, volu, bolchera, dolchu, dolu, jolch, jolcha, jolluchu -->
+    <feat name="VerbForm" value="Vnoun" upos="AUX,VERB">11</feat><!-- aellar, bollach, deg, dera, dinachunna, dodachu, dooghuchu, jerg, jolchun, jolchunga -->
+    <feat name="Voice" value="Cau" upos="VERB">24</feat><!-- bajta, jajta, chubajtal, do'aitara, dwachujaxitina, gatdo, hottabaitina, hwaabina, hwachujajta, hwiizavo -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="35">
+    <dep name="acl">13</dep>
+    <dep name="acl:relcl">12</dep>
+    <dep name="advcl">161</dep>
+    <dep name="advmod">269</dep>
+    <dep name="advmod:emph">13</dep>
+    <dep name="amod">39</dep>
+    <dep name="appos">5</dep>
+    <dep name="aux">127</dep>
+    <dep name="case">42</dep>
+    <dep name="cc">62</dep>
+    <dep name="ccomp">4</dep>
+    <dep name="ccomp:reported">87</dep>
+    <dep name="compound:redup">11</dep>
+    <dep name="conj">13</dep>
+    <dep name="cop">32</dep>
+    <dep name="csubj">3</dep>
+    <dep name="dep">1</dep>
+    <dep name="det">71</dep>
+    <dep name="discourse">69</dep>
+    <dep name="dislocated">17</dep>
+    <dep name="iobj">16</dep>
+    <dep name="mark">7</dep>
+    <dep name="nmod">82</dep>
+    <dep name="nmod:poss">1</dep>
+    <dep name="nsubj">368</dep>
+    <dep name="nummod">20</dep>
+    <dep name="obj">252</dep>
+    <dep name="obl">176</dep>
+    <dep name="orphan">5</dep>
+    <dep name="parataxis">17</dep>
+    <dep name="punct">596</dep>
+    <dep name="reparandum">22</dep>
+    <dep name="root">489</dep>
+    <dep name="vocative">20</dep>
+    <dep name="xcomp">38</dep>
+  </deps>
+</treebank>
